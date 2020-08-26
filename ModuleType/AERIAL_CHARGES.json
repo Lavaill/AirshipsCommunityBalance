@@ -1,0 +1,83 @@
+[
+	{
+		"name": "AERIAL_CHARGES",
+		"categories": ["WEAPONS"], "sort": 51,
+		"required": "BOMBS",
+		"isWeapon": true, "isExplosive": true,
+		"w": 1, "h": 2,
+		"appearance": {
+			"base": { "src": "modules", "x": 36, "y": 3, "h": 2 },
+			"cases": [
+				{ "bonuses": [ "DECK_GUNS", "HIGH_PRESSURE_SUSPENDIUM" ], "value": { "src": "modules", "x": 49, "y": 4, "h": 2 } },
+				{ "bonuses": [ "DECK_GUNS" ], "value": { "src": "modules", "x": 38, "y": 3, "h": 2 } },
+				{ "bonuses": [ "HIGH_PRESSURE_SUSPENDIUM" ], "value": { "src": "modules", "x": 49, "y": 4, "h": 2 } }
+			]
+		},
+		"windows": [ { "x": 0, "y": 1 } ],
+		"topOnly": true,
+		"moveDelay": 800,
+		"hp": 100,
+		"fireHP": 20,
+		"explodeHP": 40, "explodeDmg": 20,
+		"weight": 40,
+		"cost": 20,
+		"crew": 1, "recommendedCrew": 2,
+		"blastDmg": { "base": 40, "POWERFUL_EXPLOSIVES": 52 },
+		"blastSplashRadius": 50,
+		"reload": 3000,
+		"clip": 1,
+        "inaccuracy": 0.007,
+		"optimumRange": 300,
+		"impactForce": 1.0,
+		"shotSpeed": 0.2,
+		"fireArc": { "direction": "up", "degrees": 10 },
+		"muzzleCenterX": 0.5, "muzzleCenterY": 0.5, "muzzleLength": 0,
+		"muzzleFlash": false,
+		"hitParticle": "damaged_spark",
+        "destructionParticle": "susp_explode_spark", "destructionParticleDensity": 3,
+		"fragmentsSpeedMult": 1.5, "fragmentsFireMult": 1.5,
+		"weaponAppearance": {
+			"base": {
+                "onlyShowBarrelIfLoaded": true,
+				"barrel": { "src": "modules", "x": 732, "y": 288, "w": 18, "h": 9 },
+				"barrelX": -0.5, "barrelY": 17.5,
+				"shot": { "src": "modules", "x": 732, "y": 288, "w": 18, "h": 9 },
+				"hitExplosionSize": 2.5,
+				"missExplosionSize": 2
+			},
+			"cases": [
+				{ "bonuses": [ "DECK_GUNS", "HIGH_PRESSURE_SUSPENDIUM" ], "value": {
+					"back": { "src": "modules", "x": 39, "y": 3, "h": 2 },
+                    "onlyShowBarrelIfLoaded": true,
+					"barrel": { "src": "modules", "x": 335, "y": 464, "w": 19, "h": 7 },
+					"barrelX": -1, "barrelY": 15,
+					"shot": { "src": "modules", "x": 335, "y": 464, "w": 19, "h": 7 },
+					"hitExplosionSize": 2.5,
+					"missExplosionSize": 2
+				} },
+				{ "bonuses": [ "DECK_GUNS" ], "value": {
+                    "onlyShowBarrelIfLoaded": true,
+					"barrel": { "src": "modules", "x": 359, "y": 791, "w": 13, "h": 13 },
+					"barrelX": 2, "barrelY": 11,
+					"shot": { "src": "modules", "x": 359, "y": 791, "w": 13, "h": 13 },
+					"hitExplosionSize": 2.5,
+					"missExplosionSize": 2
+				} },
+				{ "bonuses": [ "HIGH_PRESSURE_SUSPENDIUM" ], "value": {
+					"back": { "src": "modules", "x": 37, "y": 3, "h": 2 },
+                    "onlyShowBarrelIfLoaded": true,
+					"barrel": { "src": "modules", "x": 321, "y": 464, "w": 13, "h": 7 },
+					"barrelX": 2, "barrelY": 16,
+					"shot": { "src": "modules", "x": 321, "y": 464, "w": 13, "h": 7 },
+					"hitExplosionSize": 2.5,
+					"missExplosionSize": 2
+				} }
+			]
+		},
+		"hitSound": { "layers": [ {
+			"variations": ["smexplosion"],
+			"volume": 1.8,
+			"pitch": { "min": 0.9, "max": 1.1 }
+		} ] }
+	}
+]

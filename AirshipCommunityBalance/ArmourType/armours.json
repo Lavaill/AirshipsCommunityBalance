@@ -85,6 +85,72 @@
             ]
         }
     },
+	{
+        "name": "LT_STEEL_HIDDEN",
+        "sort": 0,
+        "hidden": true,
+        "cost": {
+            "base": 0,
+        },
+        "hp": {
+            "base": 36
+        },
+        "weight": {
+            "base": 0
+        },
+        "blastDmgAbsorb": {
+            "base": 5
+        },
+        "penDmgAbsorb": {
+            "base": 3
+        },
+        "damagedApps": [],
+        "smallHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_hollow_1", "hit_metal_hollow_2", "hit_metal_hollow_3", "hit_metal_hollow_4" ],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 1.05,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "largeHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_hollow_1", "hit_metal_hollow_2", "hit_metal_hollow_3", "hit_metal_hollow_4" ],
+                    "volume": {
+                        "min": 0.7,
+                        "max": 1.0
+                    },
+                    "pitch": {
+                        "min": 0.95,
+                        "max": 1.05
+                    }
+                }
+            ]
+        },
+        "brokenSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_hollow_1", "hit_metal_hollow_2", "hit_metal_hollow_3", "hit_metal_hollow_4" ],
+                    "volume": {
+                        "min": 1.5,
+                        "max": 2.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 0.95
+                    }
+                }
+            ]
+        }
+    },
     {
         "name": "MED_STEEL_HIDDEN",
         "sort": 0,

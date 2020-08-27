@@ -1,9 +1,9 @@
 {
-    "id": "balancemod",
+    "id": "airshipcommunitybalance",
     "name": {
-        "en": "Community Balance Mod",
+        "en": "Community Balance Mod"
     },
     "description": {
-        "en": "A mod made by community members (Horcerer, Tatourmi, Orang) and approved by Zarkonnen (the game developer) for testing possible balance changes to the game."
+        "en": "A mod made by community members, with content voted on by community members with the approval of Zarkonnen (the game developer) for testing possible balance changes to the game."
     }
 }

@@ -23,7 +23,7 @@
 		"cost": 20,
 		"crew": 1, "recommendedCrew": 2,
 		"blastDmg": { "base": 40, "POWERFUL_EXPLOSIVES": 52 },
-		"blastSplashRadius": 50,
+		"blastSplashRadius": 100,
 		"reload": 3000,
 		"clip": 1,
         "inaccuracy": 0.007,
@@ -52,16 +52,16 @@
 					"barrel": { "src": "modules", "x": 335, "y": 464, "w": 19, "h": 7 },
 					"barrelX": -1, "barrelY": 15,
 					"shot": { "src": "modules", "x": 335, "y": 464, "w": 19, "h": 7 },
-					"hitExplosionSize": 2.5,
-					"missExplosionSize": 2
+					"hitExplosionSize": 5,
+					"missExplosionSize": 4
 				} },
 				{ "bonuses": [ "DECK_GUNS" ], "value": {
                     "onlyShowBarrelIfLoaded": true,
 					"barrel": { "src": "modules", "x": 359, "y": 791, "w": 13, "h": 13 },
 					"barrelX": 2, "barrelY": 11,
 					"shot": { "src": "modules", "x": 359, "y": 791, "w": 13, "h": 13 },
-					"hitExplosionSize": 2.5,
-					"missExplosionSize": 2
+					"hitExplosionSize": 5,
+					"missExplosionSize": 4
 				} },
 				{ "bonuses": [ "HIGH_PRESSURE_SUSPENDIUM" ], "value": {
 					"back": { "src": "modules", "x": 37, "y": 3, "h": 2 },
@@ -69,8 +69,8 @@
 					"barrel": { "src": "modules", "x": 321, "y": 464, "w": 13, "h": 7 },
 					"barrelX": 2, "barrelY": 16,
 					"shot": { "src": "modules", "x": 321, "y": 464, "w": 13, "h": 7 },
-					"hitExplosionSize": 2.5,
-					"missExplosionSize": 2
+					"hitExplosionSize": 5,
+					"missExplosionSize": 4
 				} }
 			]
 		},

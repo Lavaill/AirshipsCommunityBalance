@@ -4,7 +4,7 @@
 		"categories": ["PROPULSION"], "sort": -2,
 		"availableFor": ["AIRSHIP"],
 		"required": "PROPELLERS",
-        "armourType": "HV_STEEL_HIDDEN",
+        "armourType": "LT_STEEL_HIDDEN",
 		"w": 3, "h": 2,
 		"appearance": {
 			"src": "modules",

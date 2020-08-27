@@ -10,7 +10,7 @@
 		"isWeapon": true, "isGun": true, "isCannon": true,
 		"external": true,
 		"w": 2, "h": 1,
-		"armourType": "HV_STEEL_HIDDEN",
+		"armourType": "LT_STEEL_HIDDEN",
 		"appearance": {
 			"base": { "src": "modules", "x": 20, "y": 33, "w": 2 },
 			"INCREASED_CANNON_DAMAGE": { "src": "modules", "x": 22, "y": 33, "w": 2 },

@@ -1,0 +1,114 @@
+[
+    {
+        "name": "DRAGON_RIDER",
+        "categories": [],
+        "required": "MONSTERS",
+        "external": true,
+        "armourType": "DRAGON_SKIN",
+        "doesCreak": false,
+        "preventsBoarding": true,
+        "canParticlesStick": false,
+        "destructionLength": 400,
+        "createsExceptionalCombatEventAfterMs": 8000,
+        "w": 6,
+        "h": 1,
+        "appearance": {
+            "src": "monsters3",
+            "x": 0, "y": 0, "w": 6, "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": -3,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters3",
+                    "interval": 80,
+                    "frames": [
+                        { "x": 10, "y": 1, "w": 9, "h": 7 },
+                        { "x": 10, "y": 8, "w": 9, "h": 7 },
+                        { "x": 10, "y": 15, "w": 9, "h": 7 },
+                        { "x": 10, "y": 22, "w": 9, "h": 7 },
+                        { "x": 10, "y": 29, "w": 9, "h": 7 },
+                        { "x": 10, "y": 36, "w": 9, "h": 7 },
+                        { "x": 10, "y": 43, "w": 9, "h": 7 },
+                        { "x": 10, "y": 50, "w": 9, "h": 7 }
+                    ]
+                },
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": -2,
+                "y": -3,
+                "appearance": {
+                    "src": "monsters3",
+                    "interval": 100,
+                    "frames": [
+                        { "x": 1, "y": 56, "w": 9, "h": 7 },
+                        { "x": 10, "y": 56, "w": 9, "h": 7 },
+                        { "x": 19, "y": 56, "w": 8, "h": 7 },
+                        { "x": 26, "y": 56, "w": 7, "h": 7 }
+                    ]
+                },
+            }
+        ],
+        "command": 1,
+        "lift": 3000,
+        "propulsion": 0.7,
+        "hp": 1500,
+        "collisionDamageReceivedMult": 0.2,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 1100,
+        "countsAsActiveCrew": true,
+        "canOccupy": [],
+        "externalDrawPriority": true,
+        "destroyedHP": 0,
+        "hasGenericDestructionFragments": false,
+        "destructionParticle": "dragon_blood_spray",
+		"destructionParticleDensity": 10,
+		"destructionSound": {
+            "layers": [
+                {
+                    "variations": [ "dragon0", "dragon1", "dragon2" ],
+                    "volume": { "min": 5.0, "max": 7.0 },
+                    "pitch": { "min": 0.9, "max": 1.1 }
+                }
+            ]
+        },
+        "isWeapon": true,
+        "cost": 2000,
+        "maintenanceCost": 10,
+        "muzzleFlash": false,
+        "maxXRange": 400,
+        "shotSpeed": 0.24,
+        "jitterMerge": 0.75,
+        "reload": 50,
+        "clip": 0,
+        "inaccuracy": 0.003,
+        "blastDmg": 5,
+        "penDmg": 0,
+        "directDmg": 1,
+        "fireArc": { "direction": "forwards", "degrees": 90 },
+        "shootTroopsRange": 300,
+        "fixedInaccuracyVsTroops": 0,
+        "muzzleCenterX": 6,
+        "muzzleCenterY": 0.63,
+        "muzzleLength": 0,
+        "optimumRange": 120,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "flamethrower0" ],
+                    "volume": 1.0,
+                    "pitch": 1.0
+                }
+            ]
+        },
+        "soundEvery": 8,
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 224, "y": 304, "w": 11, "h": 11 },
+            "shotEmitter": { "type": "flame", "emitProbability": 0.01 }
+        }
+    }
+]

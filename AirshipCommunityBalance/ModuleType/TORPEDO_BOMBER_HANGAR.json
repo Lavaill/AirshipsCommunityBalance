@@ -1,0 +1,44 @@
+[
+    {
+        "name": "TORPEDO_BOMBER_HANGAR",
+        "categories": ["AIRCRAFT"],
+        "required": "TORPEDO_PLANES",
+        "w": 7,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 7,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 7,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "hp": 200,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 100,
+        "cost": { "base": 210 },
+        "maintenanceCost": { "base": 2, "MONOCOQUE_CONSTRUCTION": 1 },
+        "topOnly": true,
+        "recommendedCrew": 2,
+        "crew": 2,
+        "quarters": 1,
+        "quartersType": { "base": "torpedo_bomber", "MONOCOQUE_CONSTRUCTION": "monocoque_torpedo_bomber", "SELECTIVE_UPARMOURING": "armoured_torpedo_bomber" },
+        "hangarPositions": [
+            { "x": 2, "y": 0 }
+        ]
+    }
+]

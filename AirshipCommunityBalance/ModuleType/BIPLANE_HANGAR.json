@@ -1,0 +1,45 @@
+[
+    {
+        "name": "BIPLANE_HANGAR",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "BIPLANES",
+        "w": 6,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 6,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 6,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "hp": 200,
+        "fireHP": 50,
+        "moveDelay": 400,
+        "weight": 80,
+        "cost": { "base": 175 },
+        "maintenanceCost": { "base": 2, "MONOCOQUE_CONSTRUCTION": 1 },
+        "topOnly": true,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quarters": 1,
+        "quartersType": { "base": "biplane", "MONOCOQUE_CONSTRUCTION": "monocoque_biplane", "SELECTIVE_UPARMOURING": "armoured_biplane" },
+        "hangarPositions": [
+            { "x": 2, "y": 0 }
+        ]
+    }
+]

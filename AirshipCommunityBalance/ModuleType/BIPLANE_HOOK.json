@@ -1,0 +1,47 @@
+[
+    {
+        "name": "BIPLANE_HOOK",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP" ],
+        "required": "BIPLANES",
+        "w": 5,
+        "h": 3,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 56,
+            "y": 50,
+            "w": 5,
+            "h": 3
+        },
+        "externalAppearances": [
+            {
+                "x": 2,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 58,
+                    "y": 50,
+                    "w": 2,
+                    "h": 2
+                }
+            }
+        ],
+        "external": true,
+        "hp": 100,
+        "fireHP": 50,
+        "moveDelay": 600,
+        "crew": 1,
+        "recommendedCrew": 1,
+        "upDoors": [ 2 ],
+        "canOccupy": [ {"x": 2, "y": 0 }, { "x": 2, "y": 1 } ],
+        "weight": 80,
+        "cost": { "base": 175},
+        "maintenanceCost": { "base": 2, "MONOCOQUE_CONSTRUCTION": 1 },
+        "bottomOnly": true,
+        "quarters": 1,
+        "quartersType": { "base": "biplane", "MONOCOQUE_CONSTRUCTION": "monocoque_biplane", "SELECTIVE_UPARMOURING": "armoured_biplane" },
+        "hangarPositions": [
+            { "x": 2, "y": 2 }
+        ]
+    }
+]

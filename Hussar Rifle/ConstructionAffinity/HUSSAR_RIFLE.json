@@ -1,0 +1,6 @@
+[
+    {
+        "name": "HUSSAR_RIFLE",
+        "modules": [ "HUSSAR_RIFLE", "FLIPPED_HUSSAR_RIFLE" ]
+    }
+]

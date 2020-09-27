@@ -1,0 +1,200 @@
+[
+    {
+        "name": "FLIPPED_BALLISTA",
+        "flippedFrom": "BALLISTA"
+    },
+    {
+        "name": "BALLISTA",
+		"variants": ["DECK_BALLISTA"],
+        "categories": ["WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 35,
+            "y": 19,
+            "w": 2,
+            "h": 2
+        },
+        "hp": 160,
+        "fireHP": 40,
+        "moveDelay": 800,
+        "weight": 50,
+        "cost": 20,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "frontOnly": true,
+        "shotSpeed": 0.7,
+        "jitterMerge": 0.1,
+        "reload": 2500,
+        "clip": 3,
+        "inaccuracy": 0.002,
+        "penDmg": 30,
+        "fireArc": { "direction": "forwards", "degrees": 100 },
+        "maxUpRange": 100,
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.0625,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 150,
+        "windows": [
+            { "x": 1, "y": 0 },
+            { "x": 1, "y": 1 }
+        ],
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "ballista0", "ballista1" ],
+                    "volume": {
+                        "min": 0.9,
+                        "max": 1.1
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2
+                    }
+                }
+			]
+		},
+		"hitSound": {
+            "layers": [
+                {
+                    "variations": ["hookimpact0"],
+                    "volume": 0.2,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 530, "y": 298, "w": 28, "h": 1 },
+            "barrelAnimation": {
+                "interval": 100,
+                "frames": [
+                    { "src": "spritesheet", "x": 528, "y": 305, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 }
+                ]
+            },
+            "barrelX": 8,
+            "barrelY": 9.5
+        }
+    },
+	{
+        "name": "FLIPPED_DECK_BALLISTA",
+        "flippedFrom": "DECK_BALLISTA"
+    },
+    {
+        "name": "DECK_BALLISTA",
+        "categories": ["WEAPONS"],
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "src": "balancetest_R2",
+            "x": 11,
+            "y": 0,
+            "w": 2,
+            "h": 2
+        },
+		"mask": {
+            "x": 9,
+            "y": 0
+        },
+        "hp": 160,
+        "fireHP": 40,
+        "moveDelay": 800,
+        "weight": 50,
+        "cost": 27,
+        "crew": 1,
+        "recommendedCrew": 2,
+        "shotSpeed": 0.7,
+        "jitterMerge": 0.1,
+        "reload": 2500,
+        "clip": 3,
+        "inaccuracy": 0.002,
+        "penDmg": 30,
+        "fireArc": { "direction": "forwards", "degrees": 100 },
+        "maxUpRange": 100,
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.0625,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 150,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "ballista0", "ballista1" ],
+                    "volume": {
+                        "min": 0.9,
+                        "max": 1.1
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2
+                    }
+                }
+			]
+		},
+		"hitSound": {
+            "layers": [
+                {
+                    "variations": ["hookimpact0"],
+                    "volume": 0.2,
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "weaponAppearance": {
+            "shot": { "src": "spritesheet", "x": 530, "y": 298, "w": 28, "h": 1 },
+            "barrelAnimation": {
+                "interval": 100,
+                "frames": [
+                    { "src": "spritesheet", "x": 528, "y": 305, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 },
+                    { "src": "spritesheet", "x": 528, "y": 321, "w": 32, "h": 15 }
+                ]
+            },
+            "barrelX": 8,
+            "barrelY": 9.5
+        }
+    }
+]

@@ -125,7 +125,7 @@
         "fireHP": 40,
         "moveDelay": 800,
         "weight": 45,
-        "cost": 27,
+        "cost": 34,
         "crew": 1,
         "recommendedCrew": 2,
         "shotSpeed": 0.7,

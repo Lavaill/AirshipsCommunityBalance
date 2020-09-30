@@ -27,7 +27,7 @@
         "reload": 1800,
         "clip": { "base": 4, "LIGHTWEIGHT_ROUNDS": 6 },
         "inaccuracy": 0.005,
-        "fixedInaccuracyVsTroops": 14,
+        "fixedInaccuracyVsTroops": 20,
         "blastDmg": 0,
         "penDmg": { "base": 24, "ARMOUR_PIERCING_ROUNDS": 28},
 		"maxRange": 800,

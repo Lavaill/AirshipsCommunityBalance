@@ -1,0 +1,173 @@
+[
+	{
+		"name": "PROPELLER_POD",
+		"categories": ["PROPULSION"], "sort": -2,
+		"availableFor": ["AIRSHIP"],
+		"required": "PROPELLERS",
+        "armourType": "LT_STEEL_HIDDEN",
+		"w": 3, "h": 2,
+		"appearance": {
+			"src": "modules",
+			"interval": 120,
+			"frames": [
+				{ "x": 45, "y": 3, "w": 3, "h": 2 },
+				{ "x": 45, "y": 5, "w": 3, "h": 2 },
+				{ "x": 45, "y": 7, "w": 3, "h": 2 },
+				{ "x": 45, "y": 9, "w": 3, "h": 2 },
+				{ "x": 45, "y": 11, "w": 3, "h": 2 },
+				{ "x": 45, "y": 13, "w": 3, "h": 2 },
+				{ "x": 45, "y": 7, "w": 3, "h": 2 },
+				{ "x": 42, "y": 9, "w": 3, "h": 2 }
+			]
+		},
+		"mask": { "x": 42, "y": 3 },
+		"externalAppearances": [
+			{
+				"x": 0, "y": 0,
+				"appearance": { "src": "modules", "x": 42, "y": 3, "w": 3, "h": 2 }
+			},
+			{
+				"x": 0, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 80,
+					"frames": [
+						{ "x": 42, "y": 11, "h": 2 },
+						{ "x": 43, "y": 11, "h": 2 },
+						{ "x": 44, "y": 11, "h": 2 },
+						{ "x": 34, "y": 50 }
+					]
+				}
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 120,
+					"frames": [
+						{ "x": 17, "y": 46, "h": 2 },
+						{ "x": 18, "y": 46, "h": 2 },
+						{ "x": 19, "y": 46, "h": 2 },
+						{ "x": 20, "y": 46, "h": 2 }
+					]
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0, "y": 0,
+				"appearance": { "src": "modules", "x": 42, "y": 5, "w": 3, "h": 2 }
+			},
+			{
+				"x": 0, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 80,
+					"frames": [
+						{ "x": 42, "y": 11, "h": 2 },
+						{ "x": 43, "y": 11, "h": 2 },
+						{ "x": 44, "y": 11, "h": 2 },
+						{ "x": 34, "y": 50 }
+					]
+				}
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 120,
+					"frames": [
+						{ "x": 17, "y": 46, "h": 2 },
+						{ "x": 18, "y": 46, "h": 2 },
+						{ "x": 19, "y": 46, "h": 2 },
+						{ "x": 20, "y": 46, "h": 2 }
+					]
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0, "y": 0,
+				"appearance": { "src": "modules", "x": 42, "y": 7, "w": 3, "h": 2 }
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": { "src": "modules", "x": 21, "y": 46, "h": 2 }
+			}
+		],
+		"drawExternalsBelowDecals": true,
+        "producesHorizontalDrag": false,
+		"externalSubColor": { "r": 88, "g": 92, "b": 96 },
+		"canOccupy": [ { "x": 1, "y": 0 }, { "x": 1, "y": 1 } ], "moveDelay": 800,
+		"upDoors": [ 1 ],
+		"backOnly": true, "frontOnly": true,
+		"hp": 280,
+		"fireHP": 120,
+		"weight": 120,
+		"cost": 80,
+		"propulsion": 0.2,
+		"coalReload": 20000,
+		"crew": 2,
+		"recommendedCrew": 3, "recommendedGuards": 1,
+        "hitParticle": "damaged_spark",
+        "destructionParticle": "small_soot", "destructionParticleDensity": 10,
+		"fragmentsFireMult": 1.5,
+		"runningLoop": {
+			"loopFadeInMs": 400, "loopFadeOutMs": 550,
+			"layers": [ {
+				"variations": [ "engine_1600" ],
+				"volume": {
+					"value": 1.2,
+					"onViewingSide": [
+						0, 0.6,
+						1, 1
+					],
+					"xSpeed": [
+						-0.3, 1.2,
+						0, 0.4,
+						0.3, 1.2
+					]
+				},
+				"pitch": {
+					"value": 1.05,
+					"xSpeed": [
+						-0.3, 1.2,
+						0, 0.8,
+						0.3, 1.2
+					]
+				}
+			} ]
+		},
+		"emitters": [
+			{
+				"x": 1.5, "y": 1,
+				"type": "smoke",
+				"emitProbability": 0.0018
+			},
+			{
+				"x": 2.156, "y": 0.406,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			},
+			{
+				"x": 2.156, "y": 1.594,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"lights": [
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 2.156, "y": 0.406
+			},
+			{
+				"r": 255, "g": 90, "b": 10,
+				"radius": 40,
+				"x": 2.156, "y": 1.594
+			}
+		]
+	}
+]

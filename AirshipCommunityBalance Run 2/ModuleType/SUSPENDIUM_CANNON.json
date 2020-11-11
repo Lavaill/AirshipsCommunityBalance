@@ -1,0 +1,106 @@
+[
+    {
+        "name": "FLIPPED_SUSPENDIUM_CANNON",
+        "flippedFrom": "SUSPENDIUM_CANNON"
+    },
+    {
+        "name": "SUSPENDIUM_CANNON",
+        "categories": ["WEAPONS"],
+        "required": "SUSPENDIUM_CANNON",
+        "isWeapon": true,
+        "w": 5,
+        "h": 2,
+        "appearance": {
+            "src": "spritesheet",
+            "interval": 90,
+            "frames": [
+                { "x": 20, "y": 2, "w": 5, "h": 2 },
+                { "x": 33, "y": 2, "w": 5, "h": 2 },
+                { "x": 38, "y": 2, "w": 5, "h": 2 }
+            ]
+        },
+        "hp": 280,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 200,
+        "cost": 300,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "isCannon": true,
+        "obeysFireMode": false,
+        "reload": 3000,
+        "coalReload": 10000,
+        "clip": 1,
+        "shotSpeed": 3,
+        "inaccuracy": { "base": 0.0004, "PRECISE_GUNNERY": 0.0002 },
+		"penDmg": 90,
+        "blastDmg": 5,
+	    "blastSplashRadius": 20, 
+        "recoilForce": 1.0,
+        "fireArc": { "direction": "forwards", "degrees": 20 },
+        "muzzleCenterX": 4.125,
+        "muzzleCenterY": 1.1875,
+        "muzzleLength": 2.5,
+        "optimumRange": 2500,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "suspendium_cannon0" ],
+                    "volume": 1.6,
+                    "pitch": {
+                        "min": 1,
+                        "max": 1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.7
+                        ]
+                    }
+                },
+				{
+                    "variations": [ "cannon_d_0", "cannon_d_1", "cannon_d_2", "cannon_d_3" ],
+                    "volume": {
+                        "min": 0.6,
+                        "max": 0.6,
+						"distance": [
+                            0, 0,
+							750, 0,
+							2000, 0.1,
+							3000, 0.5,
+							4000, 0.75,
+							5000, 0.1
+						],
+					},
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.2,
+                        "distance": [
+                            0, 1,
+                            2000, 1,
+							5000, 0.85
+						]
+					}
+				}	
+			]
+		},
+        "weaponAppearance": {
+            "back": { "src": "spritesheet", "x": 33, "y": 0, "w": 5, "h": 2 },
+            "shot": { "src": "spritesheet", "x": 176, "y": 304, "w": 11, "h": 7 },
+            "barrelAnimation": {
+                "interval": 150,
+                "loopConstantly": true,
+                "frames": [
+                    { "src": "spritesheet", "x": 429, "y": 49, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 429, "y": 33, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 221, "y": 433, "w": 80, "h": 13 },
+                    { "src": "spritesheet", "x": 221, "y": 417, "w": 80, "h": 13 },
+                ]
+            },
+            "barrelX": 26,
+            "barrelY": 12,
+            "recoil": 1,
+            "shotEmitter": { "type": "susp_spark", "emitProbability": 0.1 }
+        }
+    }
+]

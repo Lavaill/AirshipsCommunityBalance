@@ -1,0 +1,45 @@
+[
+    {
+        "name": "BOMBER_HANGAR",
+        "categories": ["AIRCRAFT"],
+        "availableFor": [ "AIRSHIP", "LANDSHIP", "BUILDING" ],
+        "required": "BOMBERS",
+        "w": 10,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 53,
+            "y": 16,
+            "w": 10,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 53,
+                    "y": 16,
+                    "w": 10,
+                    "h": 1
+                }
+            }
+        ],
+        "external": true,
+        "hp": 220,
+        "fireHP": 110,
+        "moveDelay": 400,
+        "weight": 130,
+        "cost": { "base": 270, "MONOCOQUE_CONSTRUCTION": 190 },
+        "maintenanceCost": 2,
+        "topOnly": true,
+        "recommendedCrew": 1,
+        "crew": 1,
+        "quarters": 1,
+        "quartersType": { "base": "bomber", "MONOCOQUE_CONSTRUCTION": "monocoque_bomber", "SELECTIVE_UPARMOURING": "armoured_bomber" },
+        "hangarPositions": [
+            { "x": 3, "y": 0 }
+        ]
+    }
+]

@@ -1,0 +1,20 @@
+[
+	{
+		"name": "PRESSURISED_SUSPENDIUM_DUST_TANK",
+		"categories": ["LIFT"], "sort": 10,
+		"availableFor": ["AIRSHIP"],
+		"required": "HIGH_PRESSURE_SUSPENDIUM",
+		"w": 2, "h": 2,
+		"appearance": { "src": "modules", "x": 59, "y": 23, "w": 2, "h": 2 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 70,
+		"fireHP": 0,
+		"explodeHP": 30, "explodeDmg": 200,
+		"weight": 100,
+		"cost": 80,
+		"lift": { "base": 2000, "SUSPENDIUM_SPECIALISTS": 1560 },
+        "hitParticle": "damaged_spark",
+        "destructionParticle": "susp_explode_spark", "destructionParticleDensity": 10,
+		"fragmentsSpeedMult": 2, "fragmentsFireMult": 1.5
+	}
+]

@@ -53,6 +53,7 @@
             ]
         },
         "optimumRange": 80,
+        "shootTroopsRange": 40,
         "explodeHP": 15,
         "explodeDmg": 20,
         "weaponAppearance": {

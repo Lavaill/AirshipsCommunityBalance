@@ -1,0 +1,107 @@
+[
+    {
+        "name": "FLIPPED_SUSPENDIUM_RAY",
+        "flippedFrom": "SUSPENDIUM_RAY"
+    },
+    {
+        "name": "SUSPENDIUM_RAY",
+        "categories": ["WEAPONS"],
+        "required": "SUSPENDIUM_CANNON",
+        "isWeapon": true,
+        "w": 4,
+        "h": 4,
+        "appearance": {
+            "src": "spritesheet",
+             "x": 29, "y": 55, "w": 4, "h": 4
+        },
+        "mask": {
+            "x": 33,
+            "y": 55
+        },
+        "hp": 480,
+        "fireHP": 200,
+        "moveDelay": 800,
+        "weight": 300,
+        "cost": 400,
+        "crew": 3,
+        "recommendedCrew": 4,
+        "recommendedGuards": 1,
+        "frontOnly": true,
+        "obeysFireMode": false,
+        "reload": 4000,
+        "coalReload": 6000,
+        "clip": 0,
+        "shotSpeed": 1,
+        "inaccuracy": 0.0004,
+        "blastDmg": 0,
+        "penDmg": 12,
+        "numShots": 12,
+        "recoilForce": 0,
+        "fireArc": { "direction": "forwards", "degrees": 170 },
+        "muzzleCenterX": 2,
+        "muzzleCenterY": 2,
+        "muzzleLength": 5.6,
+        "optimumRange": 1500,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "raygun" ],
+                    "volume": 1.2,
+                    "pitch": {
+                        "min": 1,
+                        "max": 1,
+                        "distance": [
+                            0, 1.2,
+                            3000, 0.7
+                        ]
+                    }
+                }
+			]
+		},
+		"canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 },
+            { "x": 0, "y": 2 },
+            { "x": 1, "y": 2 },
+            { "x": 0, "y": 3 },
+            { "x": 1, "y": 3 },
+        ],
+        "leftDoors": [0, 1, 2, 3],
+        "upDoors": [0],
+        "weaponAppearance": {
+            "barrel": { "src": "spritesheet", "x": 381, "y": 945, "w": 179, "h": 15 },
+            "barrelX": -57.5,
+            "barrelY": 24.5
+        },
+        "beamSpec": {
+            "fadeInTime": 100,
+            "steadyTime": 400,
+            "fadeOutTime": 300,
+            "moveDistance": 60,
+            "lightClr": { "r": 61, "g": 60, "b": 45 },
+            "lightRadius": 30,
+            "emitBloomClr": { "r": 123, "g": 119, "b": 91 },
+            "emitBloomRadius": 40,
+            "hitParticle": "susp_hit_spark",
+            "hitParticleProbability": 1,
+            "subBeams": [
+                {
+                    "clr": { "r": 245, "g": 237, "b": 181, "a": 150 },
+                    "width": 6,
+                    "texture": { "src": "spritesheet", "x": 384, "y": 960, "w": 96, "h": 16 },
+                    "textureSpeed": 1
+                },
+                {
+                    "clr": { "r": 128, "g": 255, "b": 229, "a": 200 },
+                    "width": 2,
+                    "flickerAmount": 0.7,
+                    "prevFlickerProportion": 0.9,
+                    "texture": { "src": "spritesheet", "x": 384, "y": 960, "w": 96, "h": 16 },
+                    "textureSpeed": 0.9
+                }
+            ]
+        }
+    }
+]

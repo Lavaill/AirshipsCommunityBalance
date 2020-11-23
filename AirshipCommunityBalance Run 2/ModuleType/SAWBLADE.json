@@ -1,0 +1,144 @@
+[
+	{
+		"name": "FLIPPED_SAWBLADE",
+		"flippedFrom": "SAWBLADE"
+	},
+	{
+		"name": "SAWBLADE",
+		"categories": ["WEAPONS"], "sort": 90,
+		"required": "BUZZSAW",
+		"isWeapon": true,
+		"w": 2, "h": 3,
+		"appearance": { "src": "modules", "x": 14, "y": 6, "w": 2, "h": 3 },
+		"externalAppearances": [
+			{
+				"x": 0, "y": 1,
+				"appearance": { "src": "modules", "x": 24, "y": 5 }
+			},
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 16, "y": 6, "h": 3 }
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 0, "y": 1,
+				"appearance": { "src": "modules", "x": 25, "y": 5 }
+			},
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 16, "y": 6, "h": 3 }
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 0, "y": 1,
+				"appearance": { "src": "modules", "x": 26, "y": 5 }
+			},
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 16, "y": 6, "h": 3 }
+			}
+		],
+		"drawExternalsBelowDecals": true,
+		"externalSubColor": { "r": 97, "g": 63, "b": 45 },
+		"windows": [ { "x": 1, "y": 2 } ],
+		"frontOnly": true,
+		"moveDelay": 800,
+		"hp": 220,
+		"fireHP": 100,
+		"weight": 120,
+		"cost": 150,
+		"crew": 2,
+		"recommendedCrew": 3, "recommendedGuards": 1,
+		"blastDmg": 25, "blastSplashRadius": 0,
+		"reload": 200, "clip": 0,
+		"coalReload": 12000,
+		"obeysFireMode": false,
+		"inaccuracy": 0.001,
+		"optimumRange": 60, "maxRange": 95,
+		"fireArc": { "direction": "forwards", "degrees": 120 },
+		"muzzleCenterX": 1.5,
+		"muzzleCenterY": 1.5,
+		"muzzleLength": 0,
+		"hitParticle": "damaged_spark",
+        "destructionParticle": "small_soot", "destructionParticleDensity": 10,
+		"fragmentsFireMult": 1.5,
+		"hardness": 1.1,
+		"muzzleFlash": false,
+		"weaponAppearance": {
+			"back": {
+				"src": "modules",
+				"interval": 80,
+				"frames": [
+					{ "x": 10, "y": 6, "h": 3 },
+					{ "x": 11, "y": 6, "h": 3 },
+					{ "x": 12, "y": 6, "h": 3 },
+					{ "x": 13, "y": 6, "h": 3 }
+				]
+			},
+			"barrelAnimation": {
+				"interval": 20, "msPerShot": 200,
+				"loop": true, "finishLoopCycle": false,
+				"frames": [
+					{ "src": "modules", "x": 189, "y": 472, "w": 186, "h": 48 },
+					{ "src": "modules", "x": 414, "y": 472, "w": 186, "h": 48 },
+					{ "src": "modules", "x": 400, "y": 568, "w": 186, "h": 48 }
+				]
+			},
+			"barrelX": -69, "barrelY": 0,
+			"exhaust": {
+				"type": "damaged_spark",
+				"p": 1,
+				"backOffset": -32, "randomOffset": 16,
+				"angleRange": 2.5,
+				"speedMin": 2.5, "speedMax": 3
+			},
+			"impactParticle": "fragment"
+		},
+		"runningLoop": {
+			"loopFadeInMs": 100, "loopFadeOutMs": 100,
+			"layers": [ {
+				"variations": [ "engine_1600" ],
+				"volume": {
+					"value": 0.8,
+					"onViewingSide": [
+						0, 0.5,
+						1, 1
+					]
+				},
+				"pitch": 1.2,
+			} ]
+		},
+		"soundEvery": 5,
+		"fireSound": { "layers": [ {
+			"variations": [ "saw0" ],
+			"volume": 1.7,
+			"pitch": {
+				"min": 0.9, "max": 1.1,
+				"distance": [
+					0, 1.2,
+					3000, 0.5
+				]
+			}
+		} ] },
+		"emitters": [
+			{
+				"x": 0.219, "y": 1.062,
+				"type": "smoke",
+				"emitProbability": 0.0020
+			},
+			{
+				"x": 0.469, "y": 2.562,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"lights": [ {
+			"r": 255, "g": 90, "b": 10,
+			"radius": 40,
+			"x": 0.469, "y": 2.562
+		} ]
+	}
+]

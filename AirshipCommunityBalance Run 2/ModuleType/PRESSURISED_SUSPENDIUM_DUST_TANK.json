@@ -12,7 +12,7 @@
 		"explodeHP": 30, "explodeDmg": 200,
 		"weight": 100,
 		"cost": 80,
-		"lift": { "base": 2000, "SUSPENDIUM_SPECIALISTS": 1560 },
+		"lift": { "base": 1400, "SUSPENDIUM_SPECIALISTS": 1820 },
         "hitParticle": "damaged_spark",
         "destructionParticle": "susp_explode_spark", "destructionParticleDensity": 10,
 		"fragmentsSpeedMult": 2, "fragmentsFireMult": 1.5

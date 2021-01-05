@@ -1,0 +1,1 @@
+You will find the latest version of the Airships Community Balance Mod in this repo. Please commit responsibly ;)

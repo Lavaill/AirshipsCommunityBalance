@@ -1,0 +1,129 @@
+[
+	{
+		"name": "FLIPPED_PROPELLER",
+		"flippedFrom": "PROPELLER"
+	},
+	{
+		"name": "PROPELLER",
+		"categories": ["BASIC", "PROPULSION"], "sort": -4,
+		"availableFor": ["AIRSHIP"],
+		"required": "PROPELLERS",
+		"w": 2, "h": 2,
+		"appearance": {
+			"src": "modules",
+			"interval": 120,
+			"frames": [
+				{ "x": 0, "y": 7, "w": 2, "h": 2 },
+				{ "x": 2, "y": 7, "w": 2, "h": 2 },
+				{ "x": 4, "y": 7, "w": 2, "h": 2 },
+				{ "x": 6, "y": 7, "w": 2, "h": 2 }
+			]
+		},
+		"externalAppearances": [
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 24, "y": 5 }
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 120,
+					"frames": [
+						{ "x": 17, "y": 46, "h": 2 },
+						{ "x": 18, "y": 46, "h": 2 },
+						{ "x": 19, "y": 46, "h": 2 },
+						{ "x": 20, "y": 46, "h": 2 }
+					]
+				}
+			}
+		],
+		"damagedExternalAppearances": [
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 25, "y": 5 }
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": {
+					"src": "modules",
+					"interval": 120,
+					"frames": [
+						{ "x": 17, "y": 46, "h": 2 },
+						{ "x": 18, "y": 46, "h": 2 },
+						{ "x": 19, "y": 46, "h": 2 },
+						{ "x": 20, "y": 46, "h": 2 }
+					]
+				}
+			}
+		],
+		"destroyedExternalAppearances": [
+			{
+				"x": 1, "y": 0,
+				"appearance": { "src": "modules", "x": 26, "y": 5 }
+			},
+			{
+				"x": -1, "y": 0,
+				"appearance": { "src": "modules", "x": 21, "y": 46, "h": 2 }
+			}
+		],
+		"externalSubColor": { "r": 123, "g": 66, "b": 27 },
+		"backOnly": true,
+		"moveDelay": 800,
+		"hp": 160,
+		"fireHP": 110,
+		"weight": 80,
+		"cost": 60,
+		"propulsion": 0.09,
+		"coalReload": 30000,
+		"crew": 1,
+		"recommendedCrew": 2, "recommendedGuards": 1,
+        "hitParticle": "damaged_spark",
+        "destructionParticle": "small_soot", "destructionParticleDensity": 10,
+		"fragmentsFireMult": 1.5,
+		"runningLoop": {
+			"loopFadeInMs": 300, "loopFadeOutMs": 400,
+			"layers": [ {
+				"variations": [ "engine_1600" ],
+				"volume": {
+					"value": 0.8,
+					"onViewingSide": [
+						0, 0.5,
+						1, 1
+					],
+					"xSpeed": [
+						-0.3, 1.2,
+						0, 0.4,
+						0.3, 1.2
+					]
+				},
+				"pitch": {
+					"value": 1.0,
+					"xSpeed": [
+						-0.3, 1.2,
+						0, 0.8,
+						0.3, 1.2
+					]
+				}
+			} ]
+		},
+		"emitters": [
+			{
+				"x": 1.219, "y": 0.062,
+				"type": "smoke",
+				"emitProbability": 0.0012
+			},
+			{
+				"x": 1.469, "y": 1.562,
+				"type": "ember",
+				"emitProbability": 0.002,
+				"inside": true
+			}
+		],
+		"lights": [ {
+			"r": 255, "g": 90, "b": 10,
+			"radius": 40,
+			"x": 1.469, "y": 1.562
+		} ]
+	}
+]

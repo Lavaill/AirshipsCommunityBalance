@@ -1,0 +1,139 @@
+[
+	{
+		"endClr": {
+			"a": 0,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"endSize": 2,
+		"grav": 0.016,
+		"lit": false,
+		"maxDx": 0,
+		"maxDy": 0,
+		"maxLifespan": 500,
+		"minDx": 0,
+		"minDy": 0,
+		"minLifespan": 200,
+		"name": "blood_drip",
+		"offset": 2,
+		"startClr": {
+			"a": 255,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"startSize": 3,
+		"windMult": 0.1
+	},
+	{
+		"endClr": {
+			"a": 0,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"endSize": 2,
+		"grav": 0.016,
+		"lit": false,
+		"maxDx": 0.5,
+		"maxDy": 0.5,
+		"maxLifespan": 500,
+		"minDx": -0.5,
+		"minDy": -0.5,
+		"minLifespan": 200,
+		"name": "blood_spray",
+		"offset": 5,
+		"startClr": {
+			"a": 255,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"startSize": 3,
+		"stickSpeed": 1,
+		"windMult": 0.1
+	},
+	{
+		"endClr": {
+			"a": 0,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"endSize": 2,
+		"grav": 0.016,
+		"lit": false,
+		"maxDx": 0.5,
+		"maxDy": 0.5,
+		"maxLifespan": 90,
+		"minDx": -0.5,
+		"minDy": -0.5,
+		"minLifespan": 45,
+		"name": "blood_spray_internal",
+		"offset": 5,
+		"startClr": {
+			"a": 255,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"startSize": 3,
+		"windMult": 0.1
+	},
+	{
+		"endClr": {
+			"a": 0,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"endSize": 2,
+		"grav": 0.016,
+		"lit": false,
+		"maxDx": 1,
+		"maxDy": 1,
+		"maxLifespan": 2000,
+		"minDx": -1,
+		"minDy": -1,
+		"minLifespan": 800,
+		"name": "dragon_blood_spray",
+		"offset": 9,
+		"startClr": {
+			"a": 255,
+			"b": 40,
+			"g": 50,
+			"r": 210
+		},
+		"startSize": 5,
+		"stickSpeed": 1,
+		"windMult": 0.1
+	},
+	{
+		"endClr": {
+			"a": 0,
+			"b": 204,
+			"g": 155,
+			"r": 112
+		},
+		"endSize": 3,
+		"grav": 0.016,
+		"lit": false,
+		"maxDx": 0.05,
+		"maxDy": 0.05,
+		"maxLifespan": 1000,
+		"minDx": -0.05,
+		"minDy": -0.05,
+		"minLifespan": 3000,
+		"name": "spider_blood_drip",
+		"offset": 6,
+		"startClr": {
+			"a": 255,
+			"b": 204,
+			"g": 155,
+			"r": 112
+		},
+		"startSize": 5,
+		"windMult": 0.1
+	}
+]

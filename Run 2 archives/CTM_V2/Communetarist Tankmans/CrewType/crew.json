@@ -1,0 +1,75 @@
+[
+    {
+        "name": "tankman",
+        "doesWork": true,
+        "penDmg": 3,
+        "barrelX": 9,
+        "barrelY": 5,
+        "shotSpeed": 0.7,
+        "inaccuracy": 0.05,
+        "weaponReload": { "base": 2400, "DANGEROUS_FIGHTERS": 1600 },
+        "crewEffectiveness": 1,
+        "goingUpSpeedMult": 0.9,
+        "maxHP": 5,
+        "minWorkingHP": 3,
+        "animLook": "tankman",
+        "simpleLook": {
+            "src": "tankmans",
+            "x": 0,
+            "y": 0
+        },
+		"recolorOriginalA": { "r": 108, "g": 108, "b": 19 },
+        "recolorReplacementA": "COA_COLOUR",
+        "supplyCost": 0.2,
+        "shouts": "crew",
+        "deathSnd": {
+            "layers": [
+                {
+                    "variations": ["death0", "death1", "death2", "death3", "death4"],
+                    "volume": {
+                        "min": 0.8,
+                        "max": 1.2
+                    },
+                    "pitch": {
+                        "min": 0.8,
+                        "max": 1.2
+                    }
+                }
+            ]
+        },
+        "bloodParticle": "blood_spray_internal",
+        "bloodParticleExternal": "blood_spray",
+        "coughSnd": {
+            "layers": [
+                {
+                    "variations": ["cough0", "cough1", "cough2", "cough3"],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackSnd": {
+            "layers": [
+                {
+                    "variations": ["rifle0", "rifle1"],
+                    "volume": {
+                        "min": 0.9,
+                        "max": 1.1
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 1.1
+                    }
+                }
+            ]
+        },
+        "attackParticle": "muzzle_small",
+        "aimTime": 600
+    }
+]

@@ -1,0 +1,43 @@
+[
+	{
+		"name": "CONCAVE_CORNER_TOP_LEFT",
+		"flippedFrom": "CONCAVE_CORNER_TOP_RIGHT"
+	},
+	{
+		"name": "CONCAVE_CORNER_TOP_RIGHT",
+		"categories": ["SOLID_SHAPES"],
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 53, "y": 54 },
+		"mask": { "x": 53, "y": 54 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 20,
+		"fireHP": 0,
+		"weight": 2,
+		"cost": 2,
+		"shipHPBonus": 4,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "CONCAVE_CORNER_BOTTOM_LEFT",
+		"flippedFrom": "CONCAVE_CORNER_BOTTOM_RIGHT"
+	},
+	{
+		"name": "CONCAVE_CORNER_BOTTOM_RIGHT",
+		"verticallyFlippedVersion": "CONCAVE_CORNER_TOP_RIGHT",
+		"categories": ["SOLID_SHAPES"], "sort": 50,
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 53, "y": 55 },
+		"mask": { "x": 53, "y": 55 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 20,
+		"fireHP": 0,
+		"weight": 2,
+		"cost": 2,
+		"shipHPBonus": 4,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	}
+]

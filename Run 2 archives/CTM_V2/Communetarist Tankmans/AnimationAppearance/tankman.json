@@ -1,0 +1,448 @@
+[{
+    "bundle": "human",
+    "images": [
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "head",
+            "side": "FRONT",
+            "w": 5,
+            "x": 19,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "head",
+            "side": "BACK",
+            "w": 5,
+            "x": 31,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "head",
+            "side": "RIGHT",
+            "w": 5,
+            "x": 25,
+            "y": 6
+        },
+        {
+            "flipped": true,
+            "h": 4,
+            "part": "head",
+            "side": "LEFT",
+            "w": 5,
+            "x": 25,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "hat",
+            "side": "FRONT",
+            "w": 7,
+            "x": 18,
+            "y": 0
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "hat",
+            "side": "BACK",
+            "w": 7,
+            "x": 30,
+            "y": 0
+        },
+        {
+            "flipped": false,
+            "h": 6,
+            "part": "hat",
+            "side": "RIGHT",
+            "w": 7,
+            "x": 24,
+            "y": -1
+        },
+        {
+            "flipped": true,
+            "h": 6,
+            "part": "hat",
+            "side": "LEFT",
+            "w": 7,
+            "x": 24,
+            "y": -1
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "torso",
+            "side": "FRONT",
+            "w": 5,
+            "x": 37,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "torso",
+            "side": "BACK",
+            "w": 5,
+            "x": 37,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "torso",
+            "side": "RIGHT",
+            "w": 5,
+            "x": 47,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "torso",
+            "side": "LEFT",
+            "w": 5,
+            "x": 47,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "abdomen",
+            "side": "FRONT",
+            "w": 5,
+            "x": 42,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "abdomen",
+            "side": "BACK",
+            "w": 5,
+            "x": 52,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "abdomen",
+            "side": "RIGHT",
+            "w": 5,
+            "x": 52,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "abdomen",
+            "side": "LEFT",
+            "w": 5,
+            "x": 52,
+            "y": 6
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_leg",
+            "side": "FRONT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_leg",
+            "side": "BACK",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_leg",
+            "side": "RIGHT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_leg",
+            "side": "LEFT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_leg",
+            "side": "FRONT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_leg",
+            "side": "BACK",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_leg",
+            "side": "RIGHT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_leg",
+            "side": "LEFT",
+            "w": 1,
+            "x": 30,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "weapon",
+            "side": "FRONT",
+            "w": 13,
+            "x": 35,
+            "y": -1
+        },
+        {
+            "flipped": false,
+            "h": 4,
+            "part": "weapon",
+            "side": "RIGHT",
+            "w": 12,
+            "x": 36,
+            "y": 0
+        },
+        {
+            "flipped": true,
+            "h": 4,
+            "part": "weapon",
+            "side": "LEFT",
+            "w": 12,
+            "x": 36,
+            "y": 0
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_arm",
+            "side": "FRONT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_arm",
+            "side": "BACK",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_arm",
+            "side": "RIGHT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "left_arm",
+            "side": "LEFT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "left_arm_bent",
+            "side": "FRONT",
+            "w": 7,
+            "x": 32,
+            "y": 11
+        },
+        {
+            "flipped": true,
+            "h": 5,
+            "part": "left_arm_bent",
+            "side": "BACK",
+            "w": 7,
+            "x": 37,
+            "y": 12
+        },
+        {
+            "flipped": true,
+            "h": 5,
+            "part": "left_arm_bent",
+            "side": "RIGHT",
+            "w": 7,
+            "x": 31,
+            "y": 10
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "left_arm_bent",
+            "side": "LEFT",
+            "w": 7,
+            "x": 31,
+            "y": 10
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_arm",
+            "side": "FRONT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_arm",
+            "side": "BACK",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_arm",
+            "side": "RIGHT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_arm",
+            "side": "LEFT",
+            "w": 1,
+            "x": 24,
+            "y": 9
+        },
+        {
+            "flipped": true,
+            "h": 5,
+            "part": "right_arm_bent",
+            "side": "FRONT",
+            "w": 7,
+            "x": 32,
+            "y": 11
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "right_arm_bent",
+            "side": "BACK",
+            "w": 7,
+            "x": 37,
+            "y": 12
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "right_arm_bent",
+            "side": "RIGHT",
+            "w": 7,
+            "x": 31,
+            "y": 10
+        },
+        {
+            "flipped": true,
+            "h": 5,
+            "part": "right_arm_bent",
+            "side": "LEFT",
+            "w": 7,
+            "x": 31,
+            "y": 10
+        },
+        {
+            "flipped": false,
+            "h": 7,
+            "part": "right_arm_hammer",
+            "side": "RIGHT",
+            "w": 11,
+            "x": 44,
+            "y": 10
+        },
+        {
+            "flipped": true,
+            "h": 7,
+            "part": "right_arm_hammer",
+            "side": "LEFT",
+            "w": 11,
+            "x": 44,
+            "y": 10
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "injury",
+            "side": "FRONT",
+            "w": 5,
+            "x": 57,
+            "y": 5
+        },
+        {
+            "flipped": true,
+            "h": 5,
+            "part": "injury",
+            "side": "BACK",
+            "w": 5,
+            "x": 57,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "injury",
+            "side": "RIGHT",
+            "w": 5,
+            "x": 57,
+            "y": 5
+        },
+        {
+            "flipped": false,
+            "h": 5,
+            "part": "injury",
+            "side": "LEFT",
+            "w": 5,
+            "x": 57,
+            "y": 5
+        }
+    ],
+    "name": "tankman",
+    "spritesheet": "tankmans"
+}]

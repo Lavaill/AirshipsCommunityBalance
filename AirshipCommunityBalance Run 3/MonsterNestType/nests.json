@@ -1,0 +1,365 @@
+[
+    {
+        "name": "guardians1",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian I"],
+        "additionalConstructions": ["Guardian I"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians2",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian II"],
+        "additionalConstructions": ["Guardian II"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians3",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian III"],
+        "additionalConstructions": ["Guardian III"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians4",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian IV"],
+        "additionalConstructions": ["Guardian IV"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians5",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian V"],
+        "additionalConstructions": ["Guardian V"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians6",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian VI"],
+        "additionalConstructions": ["Guardian VI"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians7",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian VII"],
+        "additionalConstructions": ["Guardian VII"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians8",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian VIII"],
+        "additionalConstructions": ["Guardian VIII"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians9",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian IX"],
+        "additionalConstructions": ["Guardian IX"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians10",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian X"],
+        "additionalConstructions": ["Guardian X"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians11",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian XI"],
+        "additionalConstructions": ["Guardian XI"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians12",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian XII"],
+        "additionalConstructions": ["Guardian XII"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians13",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian XIII"],
+        "additionalConstructions": ["Guardian XIII"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    },
+    
+    {
+        "name": "guardians14",
+        "img": "guardian",
+        "spawnWeight": 1,
+        "landscapeTypes": [{ "spawnWeight": 1, "name": "RUINS" }],
+        "needsRoad": true,
+        "income": 0,
+        "mapImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "mapFleetImage": { "src": "ui", "x": 464, "y": 432, "w": 16, "h": 16 },
+        "mapFleetBackground": { "src": "ui", "x": 480, "y": 432, "w": 16, "h": 16 },
+        "baseConstructions": ["Guardian XIV"],
+        "additionalConstructions": ["Guardian XIV"],
+        "rewards": [
+            {
+                "name": "guardianHoard",
+                "money": 12000
+            },
+            {
+                "name": "guardianStone",
+                "tech": "FORTIFICATIONS",
+                "bonus": "IMPERIAL_ROCK"
+            }
+        ]
+    }
+]

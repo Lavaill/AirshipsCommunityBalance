@@ -1,0 +1,18 @@
+[
+	{
+		"name": "TANKMANS_BUNKS",
+		"categories": ["COMMAND_AND_CREW"], "sort": -2,
+		"availableFor": ["LANDSHIP"],
+		"w": 1, "h": 1,
+		"appearance": { "src": "tankmans", "x": 0, "y": 3 },
+		"windows": [ { "x": 0, "y": 0 } ],
+		"upDoors": [ 0 ],
+		"moveDelay": 600,
+		"hp": 40,
+		"fireHP": 20,
+		"weight": 15,
+		"cost": 15,
+		"maintenanceCost": { "base": 2, "UNIVERSAL_CONSCRIPTION": 1 },
+		"quarters": 3, "quartersType": "tankman"
+	}
+]

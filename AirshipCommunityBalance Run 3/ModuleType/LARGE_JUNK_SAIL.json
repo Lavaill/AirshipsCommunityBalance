@@ -1,0 +1,140 @@
+[
+    {
+        "name": "LARGE_JUNK_SAIL",
+        "categories": ["PROPULSION"],
+        "availableFor": ["AIRSHIP"],
+        "verticallyFlippedVersion": "LARGE_JUNK_SAIL_VF",
+        "armourType": "MAST",
+        "isSail": true,
+        "external": true,
+        "w": 4,
+        "h": 8,
+        "appearance": {
+            "src": "normalsail",
+            "x": 8,
+            "y": 16,
+            "w": 4,
+            "h": 8
+        },
+        "mask": {
+            "x": 8,
+            "y": 16,
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "normalsail",
+                    "x": 8,
+                    "y": 38,
+                    "w": 4,
+                    "h": 8
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "normalsail",
+                    "x": 25,
+                    "y": 38,
+                    "w": 4,
+                    "h": 8
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "normalsail",
+                    "x": 42,
+                    "y": 28,
+                    "w": 4,
+                    "h": 6
+                }
+            }
+        ],
+        "externalSubColor": { "r": 217, "g": 203, "b": 177 },
+        "externalDrawPriority": true,
+        "windows": [],
+        "hp": 210,
+        "fireHP": 105,
+        "moveDelay": 600,
+        "weight": 180,
+        "cost": 40,
+        "propulsion": 0.18,
+        "producesHorizontalDrag": false,
+        "crew": 3,
+        "recommendedCrew": 4,
+		"upDoors": [ 3 ],
+        "canOccupy": [
+            { "x": 3, "y": 5 },
+            { "x": 3, "y": 4 },
+            { "x": 3, "y": 3 },
+            { "x": 3, "y": 2 },
+			{ "x": 3, "y": 1 },
+			{ "x": 3, "y": 0 },
+			{ "x": 3, "y": 6 },
+			{ "x": 3, "y": 7 }
+        ]
+    },
+    {
+        "name": "LARGE_JUNK_SAIL_VF",
+        "deriveFrom": "LARGE_JUNK_SAIL",
+        "appearance": {
+            "src": "flippedsail",
+            "x": 8,
+            "y": 40,
+            "w": 4,
+            "h": 8
+        },
+        "mask": {
+            "x": 8,
+            "y": 40,
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "flippedsail",
+                    "x": 8,
+                    "y": 18,
+                    "w": 4,
+                    "h": 8
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "flippedsail",
+                    "x": 25,
+                    "y": 18,
+                    "w": 4,
+                    "h": 8
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "flippedsail",
+                    "x": 42,
+                    "y": 30,
+                    "w": 4,
+                    "h": 6
+                }
+            }
+        ],
+    },
+]

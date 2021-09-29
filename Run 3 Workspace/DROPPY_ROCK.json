@@ -1,0 +1,139 @@
+[
+    {
+        "name": "DROPPY_ROCK",
+        "categories": ["WEAPONS"],
+        "availableFor": ["AIRSHIP"],
+        "isWeapon": true,
+        "w": 1,
+        "h": 1,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 51,
+            "y": 59,
+            "w": 1,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 51,
+                    "y": 59,
+                    "w": 1,
+                    "h": 1
+                }
+            },
+        ],
+        "mask": {
+            "x": 51,
+            "y": 59
+        },
+        "hp": 30,
+        "external": true,
+        "drawExternalsBelowDecals": true,
+		"drawAppearanceInside": false,
+        "drawExternalsWhenInside": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 100,
+        "firedWeightDecrease": 90,
+        "cost": {
+			"base": 10,
+            "MEDIUM_STEEL_ARMOUR": 20
+		},
+        "crew": 0,
+        "canOccupy": [],
+        "bottomOnly": true,
+        "shotSpeed": { "base": 0.25, "AERODYNAMICS": 0.4 },
+        "canResupplyInCombat": false,
+        "inaccuracy": {
+			"base": 0.006,
+			"cases": [
+				{ "bonuses": [ "MEDIUM_STEEL_ARMOUR", "AERODYNAMICS" ], "value": 0.0025 },
+                { "bonuses": [ "MEDIUM_STEEL_ARMOUR" ], "value": 0.005 }
+			]
+		},
+        "obeysFireMode": false,
+		"impactForce": 1.25,
+        "penDmg": {
+			"base": 60,
+			"cases": [
+				{ "bonuses": [ "MEDIUM_STEEL_ARMOUR", "AERODYNAMICS" ], "value": 120 },
+                { "bonuses": [ "MEDIUM_STEEL_ARMOUR" ], "value": 90 }
+			]
+		},
+        "fireArc": { "direction": "down", "degrees": 10 },
+		"clip": 2,
+		"reload": 50,
+        "muzzleCenterX": 0.5,
+        "muzzleCenterY": 0.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 100,
+        "hitSound": {
+            "base": {
+                "layers": [
+                    {
+                        "variations": ["rock0", "rock1", "rock2"],
+                        "volume": {
+                            "min": 0.9,
+                            "max": 1.1
+                        },
+                        "pitch": {
+                            "min": 0.8,
+                            "max": 1.2
+                        }
+                    },
+                    {
+                        "variations": ["stones"],
+                        "volume": {
+                            "min": 0.9,
+                            "max": 1.1
+                        },
+                        "pitch": {
+                            "min": 0.8,
+                            "max": 1.2
+                        }
+                    }
+                ]
+            },
+            "MEDIUM_STEEL_ARMOUR": { "layers": [] }
+		},
+        "weaponAppearance": {
+            "base": {
+                "onlyShowBarrelIfLoaded": true,
+                "shot": { "src": "spritesheet", "x": 832, "y": 944, "w": 16, "h": 16 },
+                "barrel": { "src": "spritesheet", "x": 832, "y": 944, "w": 16, "h": 16 },
+                "barrelX": 0,
+                "barrelY": 0,
+                "impactParticle": "rock_bit",
+                "numImpactParticles": 12
+            },
+            "cases": [
+				{
+                    "bonuses": [ "MEDIUM_STEEL_ARMOUR", "AERODYNAMICS" ],
+                    "value": {
+                        "onlyShowBarrelIfLoaded": true,
+                        "shot": { "src": "spritesheet", "x": 848, "y": 945, "w": 16, "h": 9 },
+                        "barrel": { "src": "spritesheet", "x": 848, "y": 945, "w": 16, "h": 9 },
+                        "barrelX": 0,
+                        "barrelY": 3.5
+                    },
+                },
+                {
+                    "bonuses": [ "MEDIUM_STEEL_ARMOUR" ],
+                    "value": {
+                        "onlyShowBarrelIfLoaded": true,
+                        "shot": { "src": "spritesheet", "x": 850, "y": 955, "w": 12, "h": 5 },
+                        "barrel": { "src": "spritesheet", "x": 850, "y": 955, "w": 12, "h": 5 },
+                        "barrelX": 2,
+                        "barrelY": 5.5
+                    },
+                }
+			]
+        }
+    }
+]

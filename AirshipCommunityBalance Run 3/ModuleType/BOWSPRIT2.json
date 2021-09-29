@@ -1,0 +1,71 @@
+[
+    {
+        "name": "BOWSPRIT2",
+        "categories": ["DECORATIVE"],
+        "availableFor": ["AIRSHIP", "LANDSHIP"],
+        "verticallyFlippedVersion": "BOWSPRIT2_VF",
+        "external": true,
+        "w": 5,
+        "h": 1,
+        "appearance": {
+            "src": "normalsail",
+            "x": 21,
+            "y": 2,
+            "w": 5,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+					"src": "normalsail",
+					"x": 21,
+					"y": 2,
+					"w": 5,
+					"h": 1
+                }
+            }
+        ],
+        "hp": 100,
+        "fireHP": 0,
+        "moveDelay": 10000,
+        "weight": 10,
+        "cost": 20,
+        "shipHPBonus": 100,
+        "canOccupy": [],
+        "producesHorizontalDrag": false,
+        "mask": {
+            "x": 21,
+            "y": 2
+        }
+    },
+    {
+        "name": "BOWSPRIT2_VF",
+        "deriveFrom": "BOWSPRIT2",
+        "appearance": {
+            "src": "flippedsail",
+            "x": 21,
+            "y": 61,
+            "w": 5,
+            "h": 1
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+					"src": "flippedsail",
+					"x": 21,
+					"y": 61,
+					"w": 5,
+					"h": 1
+                }
+            }
+        ],
+        "mask": {
+            "x": 21,
+            "y": 61
+        }
+    }
+]

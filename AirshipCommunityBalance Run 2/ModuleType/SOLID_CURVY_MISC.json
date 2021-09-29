@@ -1,0 +1,88 @@
+[
+	{
+		"name": "CURVE_3X1_TOP_LEFT",
+		"flippedFrom": "CURVE_3X1_TOP_RIGHT"
+	},
+	{
+		"name": "CURVE_3X1_TOP_RIGHT",
+		"verticallyFlippedVersion": "CURVE_3X1_BOTTOM_RIGHT",
+		"variants": [ "CURVE_1X05_TOP_RIGHT" ],
+		"categories": ["SOLID_SHAPES"], "sort": 90,
+		"w": 3, "h": 1,
+		"appearance": { "src": "modules", "x": 57, "y": 54, "w": 3 },
+		"mask": { "x": 57, "y": 54 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 60,
+		"fireHP": 0,
+		"weight": 6,
+		"cost": 6,
+		"shipHPBonus": 12,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "CURVE_3X1_BOTTOM_LEFT",
+		"flippedFrom": "CURVE_3X1_BOTTOM_RIGHT"
+	},
+	{
+		"name": "CURVE_3X1_BOTTOM_RIGHT",
+		"variants": [ "CURVE_1X05_BOTTOM_RIGHT" ],
+		"categories": ["SOLID_SHAPES"],
+		"w": 3, "h": 1,
+		"appearance": { "src": "modules", "x": 57, "y": 55, "w": 3 },
+		"mask": { "x": 57, "y": 55 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 60,
+		"fireHP": 0,
+		"weight": 6,
+		"cost": 6,
+		"shipHPBonus": 12,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "CURVE_1X3_TOP_LEFT",
+		"flippedFrom": "CURVE_1X3_TOP_RIGHT"
+	},
+	{
+		"name": "CURVE_1X3_TOP_RIGHT",
+		"verticallyFlippedVersion": "CURVE_1X3_BOTTOM_RIGHT",
+		"variants": [ "CURVE_05X1_TOP_RIGHT" ],
+		"categories": ["SOLID_SHAPES"], "sort": 90,
+		"w": 1, "h": 3,
+		"appearance": { "src": "modules", "x": 59, "y": 48, "h": 3 },
+		"mask": { "x": 59, "y": 48 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 60,
+		"fireHP": 0,
+		"weight": 6,
+		"cost": 6,
+		"shipHPBonus": 12,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "CURVE_1X3_BOTTOM_LEFT",
+		"flippedFrom": "CURVE_1X3_BOTTOM_RIGHT"
+	},
+	{
+		"name": "CURVE_1X3_BOTTOM_RIGHT",
+		"variants": [ "CURVE_05X1_BOTTOM_RIGHT" ],
+		"categories": ["SOLID_SHAPES"],
+		"w": 1, "h": 3,
+		"appearance": { "src": "modules", "x": 59, "y": 51, "h": 3 },
+		"mask": { "x": 59, "y": 51 },
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 60,
+		"fireHP": 0,
+		"weight": 6,
+		"cost": 6,
+		"shipHPBonus": 12,
+        "hitParticle": "splinter",
+        "destructionParticle": "splinter", "destructionParticleDensity": 5,
+		"fragmentsFireMult": 0.5
+	}
+]

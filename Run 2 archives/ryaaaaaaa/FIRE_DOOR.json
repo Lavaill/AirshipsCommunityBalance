@@ -1,0 +1,17 @@
+[
+	{
+		"name": "FIRE_DOOR",
+		"categories": ["STRUCTURAL"], "sort": -1,
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 30, "y": 40 },
+		"windows": [ { "x": 0, "y": 0 } ],
+		"upDoors": [ 0 ],
+		"moveDelay": 500,
+		"hp": 50,
+		"fireHP": 0,
+		"weight": 10,
+		"cost": 5,
+        "hitParticle": "damaged_spark",
+		"fragmentsFireMult": 0.5
+	}
+]

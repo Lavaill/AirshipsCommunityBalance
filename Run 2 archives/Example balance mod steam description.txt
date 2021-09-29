@@ -1,0 +1,140 @@
+[h1]The Official Airships Community Balance Mod[/h1]
+
+This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
+
+It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
+
+The current rules are as follow:
+- The mod works in "trial runs". At the start of each run we will add all changes that were voted on and keep them in for either a determined length of time or until the community votes to end the current run.
+
+- Anyone can propose a change to be tested out in the next run. If there is at least two more votes for than against at the end of the voting period, the change is eligible to be added to the mod.
+
+- If two suggestions are incompatible (Two different values for one gun for example) only the one with the most votes will be put in the run.
+
+- Only 5 new modules can be introduced each run in order to keep balance close-ish to the normal game's.
+
+- Only 15 modifications to existing modules can be introduced each run in order to keep balance close-ish to the normal game's.
+
+- At the end of the run we will vote again on each change that was implemented and make a quick report to be sent to Zarkonnen.
+
+[h2] Current Run: I [/h2]
+
+[b] List of this run's 15 Balance Changes [/b]
+[list]
+ [*] Gave infinite range to Aerial Charges.
+ [*] Doubled the projectile speed of Aerial Charges.
+ [*] Increased the blast radius of the Aerial Charge to 100.
+ [*] Removed placement restrictions on legs.
+ [*] Gave hidden light steel armor to the deck gun.
+ [*] Gave hidden light steel armor to the propeller pod.
+ [*] Reduced grenade damage to 20 from 30.
+ [*] When researching rocket technology grenade damage goes up by 5.
+ [*] Added 2 more blast resistance to medium stone armor, to 4.
+ [*] Added 6 blast resistance to brick armor.
+ [*] Reduced the price of dragonriders to 2k (From 3k).
+ [*] Reduced price of all aircraft reduced to post-monocoque prices, monocoque now reduces maintenance by half instead.
+ [*] Removed the placement restriction on rifles.
+ [*] Removed the placement restrictions on single use weapons other than their firing path.
+ [*] Reduced the explosion damage on death of guided missiles by half.
+[/list]
+
+[b] List of this run's 5 New Modules [/b]
+[list]
+ [*] The Imperial Rock (Implemented).
+ [*] The Deck Ballista (Implemented).
+ [*] The Deck Rifle (Implemented).
+ [*] The Gatling Sponson (Implemented).
+ [*] The Hussar Rifle (Implemented).
+[/list]
+
+If you would like to participate or send us feedback, join us on the official Discord! All are welcome!
+
+Credits:
+Bob Belcher for the visuals and initial implementation of the Imperial Rock.
+Horcerer for the implementation of the imperial rock and the initial changes.
+Sir Orang for the visuals to many of the modules in the mod.
+NewAgeOfPower for helping with technical difficulties tied to mod creation, such as the update process, as well as implementing many of the modules, such as the Hussar Rifle, the Gatling Sponson and the deck variants of the Ballista and of the Rifle.
+Tatourmi for handling the day-to-day of the mod and implementing balance updates.
+Zarkonnen, for going along with the idea and overall being a pretty great guy.
+
+
+RUN II
+
+[h1]The Official Airships Community Balance Mod[/h1]
+
+This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
+
+It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
+
+The current rules are as follow:
+- The mod works in "trial runs". At the start of each run we will add all changes that were voted on and keep them in for either a determined length of time or until the community votes to end the current run.
+
+- Two balance moderators (Orang and Towarish Broven currently) oversee the changes and have the right to veto or implement quick changes.
+
+- At the end of the run we will vote again on each change that was implemented and make a quick report to be sent to Zarkonnen.
+
+[h2] Current Run: II [/h2]
+
+[list]
+[*] Grenades: Damage increased to 25, without any tech changes.
+[*] Front turret: damage 65, reload speed 2.9 seconds, accuracy buff stays. (at max tech)
+[*] Massive Rocket: Weight increased from 140 to 150, required crew increased from 2 (4) to 3 (5), projectile speed increased by 10%, accuracy increased by 15%, damage increased from 50 to 70
+[*] External massive rocket: Weight reduced by 20%, projectile speed increased by 10%, accuracy increased by 2%, damage increased from 50 to 70, air resistance removed
+[*] Guided Missile: Damage increased from 90 to 105, explosion damage higher by 35%, price increased from 600 to 1200
+[*] Triplane: Price increased from 200 to 210, HP reduced from 200 to 150 (module)
+[*] Biplane: Price increased from 200 to 240, HP reduced from 200 to 140 (module)
+[*] Biplane hook: Price reduced from 300 to 240, weight increased from 80 to 100, air resistance removed (module)
+[*] Bomber: Price increased from 200 to 270, HP reduced from 400 to 220, weight reduced from 140 to 130 (module)
+[*] Torpedo bomber: HP reduced from 200 to 160, weight increased from 100 to 120 (module)
+[*] Ballista: Damage reduced from 30 to 25, accuracy reduced by 10%
+[*] Small susp dust tanks: Lift increased by 14%, weight reduced by 17%
+[*] Aerial charge: Projectile speed increased 50%, lowered inaccuracy from: 0.007 to 0.003, increased projectile speed by 80% from: 0.1 to 0.18
+[*] Deck gun: added light steel armour values
+[*] Inner Sails: Weight reduced from 120 & 240 to 100 & 200
+[*] Grapeshot Cannon: Damage increased from 9 to 10, reload time reduced by 6%
+[*] Suspendium ray: cost increased from 400 to 600
+[*] Ammo Store: Explosion damage reduced by 13%
+[*] Aerial Torpedo: (module) Explosion damage reduced by 15%
+[*] Firepoint: Weight reduced from 200 to 170
+[*] Computer: Weight reduced from 500 to 400, accuracy bonus increased from 30% to 40%
+[*] External aerial torpedo: Removed air resistance
+[*] Small propeller: Movement increased from 20 to 25
+[*] Medium propeller: Movement increased from 80 to 90
+[*] External rocket: Weight reduced by 33%, air resistance removed
+[*] Engine pod: added light steel armour values
+[*] Acid Spitter: Projectile speed increased by 300%, reload time reduced by 30%, explosive damage increased from 10 to 20, splash radius decreased from 60 to 30, direct damage increased from 30 to 45, clip size decreased from 3 to 1, top was added fire limitation, forward firing range increased by 1.5 times
+[*] Deck gun: HP increased from 40 to 50, price increased from 50 to 70, crew decreased from 2 (3) to 1 (2), accuracy increased by 10%, firing range at aircraft and people increased by 25%
+[*] Pressurised suspendium dust tank: lift increased by 200 (from 1200 to 1400)
+[*] Saw: damage changed to 25 blast
+[*] Suspendium Laser: Damage changed to 12x12 (Stats would be: 400$, 12x12 pierce, 4 seconds reload time, 3 crew needed)
+[*] Large Suspendium Chambers: Decreased targeting priority
+[*] Sponson: Increased accuracy
+
+[*] Heavy wooden armor: weight reduced from 15 to 12
+[*] Massive stone wall: HP increased from 100 to 130
+[*] Dragonhide HP buffed to 75
+[*] Medium wood weight increased to 3 from 2
+[*] Shell armor pricing reduced to 6 for skirmish, 3 for conquest. Weight decreased from 6 to 4.
+
+[*]New crewtype: Tankmans! Vodka-based training methods have allowed for the training of brave men who will crew landships for less pay than airsailors. Meant to test the announced cheaper crewtype for landships.
+
+[*] Decoration block changes! Less weight, a bit more hp bonus. (See the release notes for details, there’s a bunch of these)
+
+[/list]
+
+If you would like to participate or send us feedback, join us on the official Discord! All are welcome!
+
+[b]Credits:[/b]
+Bob Belcher for the visuals and initial implementation of the Imperial Rock.
+Horcerer for the implementation of the imperial rock and the initial changes.
+Sir Orang for the visuals to many of the modules in the mod. Current Balance Moderator.
+Towarish Broven for being the other current balance moderator and implementing the run 2 changes.
+Meowskyi for the Tankmens!
+NewAgeOfPower for helping with technical difficulties tied to mod creation, such as the update process, as well as implementing many of the modules, such as the Hussar Rifle, the Gatling Sponson and the deck variants of the Ballista and of the Rifle.
+Tatourmi for handling the day-to-day of the mod and implementing balance updates.
+Mink for double-checking the changes and helping bugfix the mod.
+Zarkonnen, for going along with the idea and overall being a pretty great guy.
+
+
+
+

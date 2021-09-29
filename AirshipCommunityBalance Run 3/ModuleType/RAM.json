@@ -1,0 +1,28 @@
+[
+	{
+		"name": "RAM",
+		"categories": ["WEAPONS"], "sort": 100,
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"external": true, "isRam": true,
+		"w": 2, "h": 1,
+		"appearance": { "src": "modules", "x": 12, "y": 30, "w": 2 },
+		"mask": { "x": 36, "y": 52 },
+		"externalAppearances": [ {
+			"x": 0, "y": 0,
+			"appearance": { "src": "modules", "x": 36, "y": 52, "w": 2 }
+		} ],
+		"drawExternalsBelowDecals": true,
+		"drawAppearanceInside": false,
+		"externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"frontOnly": true,
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 5500,
+		"fireHP": 0,
+		"weight": 300,
+		"cost": 80,
+		"hardness": 1.5,
+		"hitParticle": "damaged_spark",
+		"fragmentsSpeedMult": 0.5, "fragmentsFireMult": 0.5
+	}
+]

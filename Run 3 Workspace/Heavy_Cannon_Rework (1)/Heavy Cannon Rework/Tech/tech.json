@@ -1,0 +1,20 @@
+[
+    {
+        "name": "HEAVY_CANNON",
+        "sort": 2530,
+        "tier": 2,
+        "choices": [
+            {
+                "name": "HEAVY_CHOICE",
+                "bonuses": [ "HEAVY_CHOICE"],
+                "img": { "src": "tech", "x": 672, "y": 192, "w": 64, "h": 64 }
+            },
+            {
+                "name": "HEAVY_TUSHKA",
+                "bonuses": [ "HEAVY_TUSHKA" ],        
+                "img": { "src": "hvsponson_sprt", "x":64, "y":192, "w":64, "h":64}
+            }
+        ],
+        "dependencies": [ "METALLURGY", "OPTICS" ]
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "name": "LARGE_SAIL",
+        "categories": ["PROPULSION"],
+        "availableFor": ["AIRSHIP"],
+        "isSail": true,
+        "w": 2,
+        "h": 2,
+        "sort": 110,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 32,
+            "y": 6,
+            "w": 2,
+            "h": 2
+        },
+        "externalAppearances": [
+            {
+                "x": -6,
+                "y": -3,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 1,
+                    "y": 52,
+                    "w": 7,
+                    "h": 8
+                }
+            }
+        ],
+        "damagedExternalAppearances": [
+            {
+                "x": -6,
+                "y": -3,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 8,
+                    "y": 52,
+                    "w": 7,
+                    "h": 8
+                }
+            }
+        ],
+        "destroyedExternalAppearances": [
+            {
+                "x": -6,
+                "y": -3,
+                "appearance": {
+                    "src": "spritesheet",
+                    "x": 8,
+                    "y": 52,
+                    "w": 7,
+                    "h": 8
+                }
+            }
+        ],
+        "externalSubColor": { "r": 217, "g": 203, "b": 177 },
+        "externalDrawPriority": true,
+        "windows": [
+            { "x": 1, "y": 1 }
+        ],
+        "hp": 160,
+        "fireHP": 120,
+        "moveDelay": 800,
+        "weight": 200,
+        "cost": 40,
+        "propulsion": 0.12,
+        "crew": 4,
+        "recommendedCrew": 5,
+        "upDoors": [ 0 ],
+        "leftDoors": [ 0, 1 ],
+        "rightDoors": [ 0, 1 ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 1, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ]
+    }
+]

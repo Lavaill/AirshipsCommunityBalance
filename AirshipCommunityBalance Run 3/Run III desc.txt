@@ -1,0 +1,80 @@
+[h1]The Official Airships Community Balance Mod[/h1]
+
+This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
+
+It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
+
+The current rules are as follow:
+- The mod works in "trial runs". At the start of each run we will add all changes that were voted on and keep them in for either a determined length of time or until the community votes to end the current run.
+
+- Anyone can propose a change to be tested out in the next run. If there is at least two more votes for than against at the end of the voting period, the change is eligible to be added to the mod.
+
+- If two suggestions are incompatible (Two different values for one gun for example) only the one with the most votes will be put in the run.
+
+- At the end of the run we will vote again on each change that was implemented and make a quick report to be sent to Zarkonnen.
+
+
+RUN III
+
+[h1]The Official Airships Community Balance Mod[/h1]
+
+This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
+
+It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
+
+The current rules are as follow:
+- The mod works in "trial runs". At the start of each run we will add all changes that were voted on and keep them in for either a determined length of time or until the community votes to end the current run.
+
+- Two balance moderators (Orang and Towarish Broven currently) oversee the changes and have the right to veto or implement quick changes.
+
+- At the end of the run we will vote again on each change that was implemented and make a quick report to be sent to Zarkonnen.
+
+[h2] Current Run: III [/h2]
+
+New Modules:
+[list]
+[*]The Imperial ROCK. A monster-tech weapon that is, well, one big-ass rock.
+[*]The Hussar Rifle. Close range armor-piercing heavy rifle!
+[*]The Gatling and Grapeshot Sponsons. Because your hull needed new options.
+[*]The Heavy Bombard. A sidegrade to the heavy cannon allowing you to pummel lightly armored enemies with carcass shells!
+[/list]
+
+Module changes:
+[list]
+[*] Bowsprits: 400 HP -> 100
+[*] Rocket (External) Cost: 10$ -> 30$, Clip: 1 -> 4, Inaccuracy: 0.004 -> 0.003
+[*] Guard Post: Quarters guards 0 -> 1
+[*] Small Suspendium Chamber: Coal per 40s -> 100s
+[*] Junk Sail: Propulsion 90 -> 120
+[*] Large Junk Sail: Propulsion 140 -> 180
+[*] Massive Rocket: Damage: 50 -> 65
+[*] Bomb Bay: Inaccuracy: 0.005 -> 0.003 (Aerodynamic Bombs: 0.0025 -> 0.0015)
+[*] Aerial Charge: Firing Arc: 10° -> 20°
+[*] Kinetic Bomb: Cost: 5$/15$ -> 10$/20$, Clip: 1 -> 2, Impact Force: 1 -> 1.25, Weight: 80 -> 100 (10 if Dropped)
+[*] Wurm Catcher Ram: Weight: 250 -> 200, HP: 5000 -> 4000
+[*] Ram: Weight: 500 -> 300, HP: 9000 -> 5500, Hardness: 1. 4 -> 1.5
+[*] Spike Ram: Weight: 900 -> 500, Hardness: 1.9 -> 2.1
+[*] Grand Ram: Weight: 3000 -> 1200, HP: 45000 -> 20000, Hardness: 1.7 -> 2.0
+[*] Ram: Cost: 80$ -> 60$, Weight: 500 -> 400, HP: 9000 -> 2000, Hardness: 1.4 -> 2
+[*] Massive Rocket (External): Cost: 60$ -> 80$, Damage: 50 -> 65, Clip: 1 -> 2, Inaccuracy: 0.003 -> 0.0025
+[*] Cultist Pinnacle: Cost: 40$ -> 80$, HP: 240 -> 800, Ship HP: 320 -> 1000, Hardness: 1.0 -> 1.5
+
+[/list]
+
+If you would like to participate or send us feedback, join us on the official Discord! All are welcome!
+
+[b]Credits:[/b]
+Bob Belcher for the visuals and initial implementation of the Imperial Rock.
+Horcerer for the implementation of the imperial rock and the initial changes.
+Towarish Broven and Ooorang for the visuals to many of the modules in the mod and providing many values. Both current balance moderators!
+Meowskyi for the Tankmens of balance run II!
+NewAgeOfPower for helping with technical difficulties tied to mod creation, such as the update process, as well as implementing many of the modules, such as the Hussar Rifle, the Gatling Sponson and the deck variants of the Ballista and of the Rifle of run II.
+Tatourmi for handling the day-to-day of the mod and implementing balance updates.
+Mink for double-checking the changes and helping bugfix the mod.
+Bob Belcher for visual and technical implementation of some new modules.
+Pneuma for the sprites and new modules of run III!
+Zarkonnen, for going along with the idea and overall being a pretty great guy!
+
+
+
+

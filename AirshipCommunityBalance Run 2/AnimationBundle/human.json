@@ -1,0 +1,1971 @@
+[{
+    "name": "human",
+    "bodyPlan": "human",
+    "width": 5,
+    "height": 13,
+    "animations": [
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": 0.8,
+                    "cOff": 400,
+                    "cPeriod": 800,
+                    "cW": 0,
+                    "name": "left_leg",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "cH": 0.8,
+                    "cPeriod": 800,
+                    "cW": 0,
+                    "name": "right_leg",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 400,
+                    "cPeriod": 800,
+                    "cW": 0,
+                    "name": "left_arm_bent",
+                    "x": -1,
+                    "y": 2.5
+                },
+                {
+                    "cH": 0.5,
+                    "cPeriod": 800,
+                    "cW": 0,
+                    "name": "right_arm_bent",
+                    "x": -1,
+                    "y": 2.5
+                }
+            ],
+            "side": "BACK",
+            "type": "CLIMB"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": 0,
+                    "cOff": 75,
+                    "cPeriod": 300,
+                    "cW": 0.4,
+                    "name": "left_leg",
+                    "wEnd": -0.1,
+                    "wPeriod": 100,
+                    "wStart": -0.1,
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "cH": 0,
+                    "cPeriod": 300,
+                    "cW": 0.4,
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 100,
+                    "wStart": 0.1,
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "cH": 0,
+                    "cOff": 225,
+                    "cPeriod": 300,
+                    "cW": 0.4,
+                    "name": "left_arm_bent",
+                    "wEnd": -0.6,
+                    "wPeriod": 100,
+                    "wStart": -0.6,
+                    "x": -1,
+                    "y": 1
+                },
+                {
+                    "cH": 0,
+                    "cOff": 150,
+                    "cPeriod": 300,
+                    "cW": 0.4,
+                    "name": "right_arm_bent",
+                    "wEnd": 0.6,
+                    "wPeriod": 100,
+                    "wStart": 0.6,
+                    "x": -1,
+                    "y": 1
+                }
+            ],
+            "side": "BACK",
+            "type": "CLIMB_SIDEWAYS"
+        },
+        {
+            "parts": [
+                {
+                    "cH": 8.5,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": 4,
+                    "name": "head",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 9.5
+                },
+                {
+                    "cH": 11.2,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": 6,
+                    "name": "hat",
+                    "wEnd": 1.7,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": -1,
+                    "y": 9.2
+                },
+                {
+                    "cH": 6,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": 1.5,
+                    "name": "torso",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 9
+                },
+                {
+                    "cH": 3.5,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": -1,
+                    "name": "abdomen",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 9.5
+                },
+                {
+                    "cH": 2.5,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": -2.5,
+                    "name": "right_leg",
+                    "wEnd": 1.4,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 8.5
+                },
+                {
+                    "cH": 7,
+                    "cOff": 450,
+                    "cPeriod": 600,
+                    "cW": 2.5,
+                    "name": "left_arm",
+                    "wEnd": 2.741592653589793,
+                    "wPeriod": 250,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 8
+                }
+            ],
+            "side": "LEFT",
+            "type": "COLLAPSE",
+            "length": 150
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "cH": 0.2,
+                    "cOff": 50,
+                    "cPeriod": 200,
+                    "cW": 0,
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2.5
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "cH": 0.1,
+                    "cOff": 100,
+                    "cPeriod": 600,
+                    "cW": 0,
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 5.8
+                },
+                {
+                    "cH": 0.1,
+                    "cOff": 300,
+                    "cPeriod": 600,
+                    "cW": 0.1,
+                    "name": "left_leg",
+                    "wEnd": 0.3,
+                    "wOff": 100,
+                    "wPeriod": 1200,
+                    "wStart": -0.3,
+                    "x": 3,
+                    "y": 5.5
+                },
+                {
+                    "cH": 0.1,
+                    "cOff": 100,
+                    "cPeriod": 700,
+                    "cW": 0.1,
+                    "name": "right_leg",
+                    "wEnd": 0.3,
+                    "wOff": 300,
+                    "wPeriod": 1000,
+                    "wStart": -0.3,
+                    "x": 1,
+                    "y": 5.5
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": 3.491592653589793,
+                    "wPeriod": 400,
+                    "wStart": 3.191592653589793,
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": 3.0915926535897933,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": 2.791592653589793,
+                    "x": 0,
+                    "y": 1
+                }
+            ],
+            "side": "FRONT",
+            "type": "FALL"
+        },
+        {
+            "length": 500,
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "wEnd": 0.2,
+                    "wPeriod": 100,
+                    "wStart": 0.2,
+                    "x": 1.2,
+                    "y": 5.9
+                },
+                {
+                    "name": "right_leg",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "cH": 0,
+                    "cOff": 500,
+                    "cPeriod": 1000,
+                    "cW": -0.5,
+                    "name": "right_arm",
+                    "wEnd": 1.4,
+                    "wPeriod": 1000,
+                    "wStart": 0.6,
+                    "x": 2,
+                    "y": 1.1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "LEFT",
+            "type": "GIVE_LEFT"
+        },
+        {
+            "length": 500,
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": -0.2,
+                    "wPeriod": 100,
+                    "wStart": -0.2,
+                    "x": 2.8,
+                    "y": 5.9
+                },
+                {
+                    "cH": 0,
+                    "cOff": 500,
+                    "cPeriod": 1000,
+                    "cW": 0.5,
+                    "name": "right_arm",
+                    "wEnd": -1.4,
+                    "wPeriod": 1000,
+                    "wStart": -0.6,
+                    "x": 2,
+                    "y": 1.1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "RIGHT",
+            "type": "GIVE_RIGHT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "wEnd": -0.1,
+                    "wPeriod": 100,
+                    "wStart": -0.1,
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 100,
+                    "wStart": 0.1,
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "name": "left_arm_bent",
+                    "wEnd": -0.6,
+                    "wPeriod": 100,
+                    "wStart": -0.6,
+                    "x": -1,
+                    "y": 1
+                },
+                {
+                    "name": "right_arm_bent",
+                    "wEnd": 0.6,
+                    "wPeriod": 100,
+                    "wStart": 0.6,
+                    "x": -1,
+                    "y": 1
+                }
+            ],
+            "side": "BACK",
+            "type": "HANG_IN_THERE"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "cH": 0.8,
+                    "cPeriod": 2000,
+                    "cW": 0,
+                    "name": "left_arm",
+                    "wEnd": 3.241592653589793,
+                    "wPeriod": 100,
+                    "wStart": 3.241592653589793,
+                    "x": 4,
+                    "y": 0.3
+                },
+                {
+                    "cH": 0.8,
+                    "cPeriod": 2000,
+                    "cW": 0,
+                    "name": "right_arm",
+                    "wEnd": 3.041592653589793,
+                    "wPeriod": 100,
+                    "wStart": 3.041592653589793,
+                    "x": 0,
+                    "y": 0.3,
+                    "holdsResource": true
+                }
+            ],
+            "side": "FRONT",
+            "type": "HAPPY",
+            "length": 400
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 4,
+                    "y": 9.5
+                },
+                {
+                    "name": "hat",
+                    "wEnd": 1.7,
+                    "wPeriod": 100,
+                    "wStart": 1.7,
+                    "x": 5,
+                    "y": 9.2
+                },
+                {
+                    "name": "torso",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "injury",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "abdomen",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": -1,
+                    "y": 9.5
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": 1.4,
+                    "wPeriod": 100,
+                    "wStart": 1.4,
+                    "x": -0.5,
+                    "y": 8.5
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": 3.641592653589793,
+                    "wPeriod": 4000,
+                    "wStart": 2.641592653589793,
+                    "x": 4.5,
+                    "y": 8
+                }
+            ],
+            "side": "LEFT",
+            "type": "INJURED"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 4,
+                    "y": 9.5
+                },
+                {
+                    "name": "hat",
+                    "wEnd": 1.7,
+                    "wPeriod": 100,
+                    "wStart": 1.7,
+                    "x": 5,
+                    "y": 9.2
+                },
+                {
+                    "name": "torso",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "injury",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "abdomen",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": -1,
+                    "y": 9.5
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": 1.4,
+                    "wPeriod": 100,
+                    "wStart": 1.4,
+                    "x": -0.5,
+                    "y": 8.5
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": 1.3,
+                    "wPeriod": 100,
+                    "wStart": 1.3,
+                    "x": 4.5,
+                    "y": 8.2
+                }
+            ],
+            "side": "FRONT",
+            "type": "DEAD"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "wEnd": -0.2,
+                    "wOff": 3000,
+                    "wPeriod": 8000,
+                    "wStart": -0.05,
+                    "x": 0.5,
+                    "y": 5.2
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": -0.5,
+                    "wPeriod": 100,
+                    "wStart": -0.5,
+                    "x": 3,
+                    "y": 5.6
+                },
+                {
+                    "name": "right_arm_bent",
+                    "wEnd": 0.1,
+                    "wPeriod": 8000,
+                    "wStart": -0.1,
+                    "x": -1,
+                    "y": 2
+                }
+            ],
+            "side": "LEFT",
+            "type": "JUMP_LEFT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "wEnd": 0.5,
+                    "wPeriod": 100,
+                    "wStart": 0.5,
+                    "x": 1,
+                    "y": 5.6
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": 0.2,
+                    "wOff": 3000,
+                    "wPeriod": 8000,
+                    "wStart": 0.05,
+                    "x": 3.5,
+                    "y": 5.2
+                },
+                {
+                    "name": "right_arm_bent",
+                    "wEnd": 0.1,
+                    "wPeriod": 8000,
+                    "wStart": -0.1,
+                    "x": -1,
+                    "y": 2
+                }
+            ],
+            "side": "RIGHT",
+            "type": "JUMP_RIGHT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": -0.2,
+                    "wPeriod": 100,
+                    "wStart": -0.2,
+                    "x": 2.8,
+                    "y": 5.9
+                },
+                {
+                    "name": "right_arm_hammer",
+                    "wEnd": -1.1,
+                    "wPeriod": 500,
+                    "wStart": -0.4,
+                    "x": -3,
+                    "y": 1
+                }
+            ],
+            "side": "RIGHT",
+            "type": "REPAIR",
+            "length": 4000
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "wEnd": -0.15,
+                    "wPeriod": 100,
+                    "wStart": -0.15,
+                    "x": -0.4,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "wEnd": -0.15,
+                    "wPeriod": 100,
+                    "wStart": -0.15,
+                    "x": -1.7,
+                    "y": -1.8
+                },
+                {
+                    "name": "torso",
+                    "wEnd": -0.1,
+                    "wPeriod": 100,
+                    "wStart": -0.1,
+                    "x": -0.1,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4.1,
+                    "y": 2,
+                    "wEnd": -0.1,
+                    "wPeriod": 100,
+                    "wStart": -0.1,
+                },
+                {
+                    "name": "abdomen",
+                    "wEnd": -0.05,
+                    "wPeriod": 100,
+                    "wStart": -0.05,
+                    "x": 0.1,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": 0.1,
+                    "wPeriod": 100,
+                    "wStart": 0.1,
+                    "x": 1.2,
+                    "y": 1.1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "LEFT",
+            "type": "SAD",
+            "length": 4000
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -1
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "name": "left_leg",
+                    "x": 0.5,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": -0.5,
+                    "wPeriod": 100,
+                    "wStart": -0.5,
+                    "x": 3,
+                    "y": 6.2
+                },
+                {
+                    "name": "weapon",
+                    "x": -6,
+                    "y": 4
+                },
+                {
+                    "name": "right_arm_bent",
+                    "wEnd": 0.4,
+                    "wPeriod": 100,
+                    "wStart": 0.4,
+                    "x": -1,
+                    "y": 3
+                }
+            ],
+            "side": "LEFT",
+            "type": "SHOOT_LEFT",
+            "length": 800
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -1
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "name": "left_leg",
+                    "wEnd": 0.5,
+                    "wPeriod": 100,
+                    "wStart": 0.5,
+                    "x": 1,
+                    "y": 6.2
+                },
+                {
+                    "name": "right_leg",
+                    "x": 3.5,
+                    "y": 6
+                },
+                {
+                    "name": "weapon",
+                    "x": -1,
+                    "y": 4
+                },
+                {
+                    "name": "right_arm_bent",
+                    "wEnd": -0.4,
+                    "wPeriod": 100,
+                    "wStart": -0.4,
+                    "x": -1,
+                    "y": 3
+                }
+            ],
+            "side": "RIGHT",
+            "type": "SHOOT_RIGHT",
+            "length": 800
+        },
+        {
+            "parts": [
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.2,
+                    "name": "head",
+                    "wEnd": -0.2,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0,
+                    "name": "hat",
+                    "wEnd": -0.1,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": -1,
+                    "y": -1.5
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.6,
+                    "name": "torso",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.6,
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.2,
+                    "name": "abdomen",
+                    "wEnd": 0.4,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "cH": 0,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.5,
+                    "name": "left_leg",
+                    "wEnd": 2,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "cH": 0,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.4,
+                    "name": "right_leg",
+                    "wEnd": 1,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.6,
+                    "name": "left_arm",
+                    "wEnd": 4,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 1.5
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.6,
+                    "name": "right_arm",
+                    "wEnd": 3,
+                    "wPeriod": 300,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 1.5,
+                    "holdsResource": true
+                }
+            ],
+            "side": "LEFT",
+            "type": "SHOT_FROM_LEFT",
+            "length": 83
+        },
+        {
+            "parts": [
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.2,
+                    "name": "head",
+                    "wEnd": 0.2,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0,
+                    "name": "hat",
+                    "wEnd": 0.1,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": -1,
+                    "y": -1.5
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.6,
+                    "name": "torso",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.6,
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "cH": 1,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.2,
+                    "name": "abdomen",
+                    "wEnd": -0.4,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "cH": 0,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": 0.5,
+                    "name": "left_leg",
+                    "wEnd": -2,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "cH": 0,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.4,
+                    "name": "right_leg",
+                    "wEnd": -1,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.6,
+                    "name": "left_arm",
+                    "wEnd": -4,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 1.5
+                },
+                {
+                    "cH": 0.5,
+                    "cOff": 300,
+                    "cPeriod": 400,
+                    "cW": -0.6,
+                    "name": "right_arm",
+                    "wEnd": -3,
+                    "wPeriod": 400,
+                    "wStart": 0,
+                    "x": 2,
+                    "y": 1.5,
+                    "holdsResource": true
+                }
+            ],
+            "side": "RIGHT",
+            "type": "SHOT_FROM_RIGHT",
+            "length": 83
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "name": "left_arm",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "name": "right_arm",
+                    "x": 0,
+                    "y": 1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "FRONT",
+            "type": "STANDING"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -2,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "name": "weapon",
+                    "wEnd": 0.8,
+                    "wPeriod": 100,
+                    "wStart": 0.8,
+                    "x": -3.8,
+                    "y": 3.1
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": -0.3,
+                    "wPeriod": 100,
+                    "wStart": -0.3,
+                    "x": 3.5,
+                    "y": 1.1
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": -0.7,
+                    "wPeriod": 100,
+                    "wStart": -0.7,
+                    "x": 0.2,
+                    "y": 1.1
+                }
+            ],
+            "side": "FRONT",
+            "type": "STANDING_ARMED"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "left_arm",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "right_arm",
+                    "x": 2,
+                    "y": 1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "LEFT",
+            "type": "STANDING_LEFT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "name": "left_arm",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "right_arm",
+                    "x": 2,
+                    "y": 1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "RIGHT",
+            "type": "STANDING_RIGHT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": -0.2,
+                    "cOff": 200,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "left_leg",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "cH": -0.2,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "LEFT",
+            "type": "WALK_LEFT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": -0.2,
+                    "cOff": 200,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "left_leg",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "cH": -0.2,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "name": "weapon",
+                    "wEnd": -0.4,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.4,
+                    "x": -5.7,
+                    "y": 3.7
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": 1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": 1,
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "side": "LEFT",
+            "type": "WALK_LEFT_ARMED"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": 0.2,
+                    "cOff": 200,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "left_leg",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "cH": 0.2,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 1,
+                    "holdsResource": true
+                }
+            ],
+            "side": "RIGHT",
+            "type": "WALK_RIGHT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "cH": 0.2,
+                    "cOff": 200,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "left_leg",
+                    "wEnd": 0.1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "cH": 0.2,
+                    "cPeriod": 400,
+                    "cW": 1,
+                    "name": "right_leg",
+                    "wEnd": 0.1,
+                    "wPeriod": 400,
+                    "wStart": -0.1,
+                    "x": 2,
+                    "y": 5.8
+                },
+                {
+                    "name": "weapon",
+                    "wEnd": 0.4,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": 0.4,
+                    "x": -1.3,
+                    "y": 3.7
+                },
+                {
+                    "name": "right_arm",
+                    "wEnd": -1,
+                    "wOff": 200,
+                    "wPeriod": 400,
+                    "wStart": -1,
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "side": "RIGHT",
+            "type": "WALK_RIGHT_ARMED"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": -0.2,
+                    "wPeriod": 100,
+                    "wStart": -0.2,
+                    "x": 2.8,
+                    "y": 5.9
+                },
+                {
+                    "cH": 0,
+                    "cPeriod": 1000,
+                    "cW": 0.5,
+                    "name": "right_arm_bent",
+                    "wEnd": -1.4,
+                    "wPeriod": 1000,
+                    "wStart": -0.6,
+                    "x": -0.8,
+                    "y": 2
+                }
+            ],
+            "side": "RIGHT",
+            "type": "WORK"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2,
+                    "cH": 0.1,
+                    "cW": 0,
+                    "cPeriod": 100,
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 2,
+                    "y": 5.8,
+                    "wEnd": -0.4,
+                    "wPeriod": 1000,
+                    "wStart": -0.2,
+                },
+                {
+                    "name": "right_leg",
+                    "x": 2,
+                    "y": 5.8,
+                    "wEnd": -0.45,
+                    "wPeriod": 700,
+                    "wStart": -0.25,
+                },
+                {
+                    "name": "right_arm_bent",
+                    "x": -1,
+                    "y": 2
+                }
+            ],
+            "side": "LEFT",
+            "type": "FLY_LEFT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "name": "hat",
+                    "x": -1,
+                    "y": -2
+                },
+                {
+                    "name": "torso",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "name": "backpack",
+                    "x": -4,
+                    "y": 2,
+                    "cH": 0.1,
+                    "cW": 0,
+                    "cPeriod": 100,
+                },
+                {
+                    "name": "abdomen",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "name": "left_leg",
+                    "x": 2,
+                    "y": 5.8,
+                    "wEnd": 0.4,
+                    "wPeriod": 1000,
+                    "wStart": 0.2,
+                },
+                {
+                    "name": "right_leg",
+                    "x": 2,
+                    "y": 5.8,
+                    "wEnd": 0.45,
+                    "wPeriod": 700,
+                    "wStart": 0.25,
+                },
+                {
+                    "name": "right_arm_bent",
+                    "x": -1,
+                    "y": 2
+                }
+            ],
+            "side": "RIGHT",
+            "type": "FLY_RIGHT"
+        },
+        {
+            "parts": [
+                {
+                    "name": "head",
+                    "wEnd": 1.8,
+                    "wPeriod": 100,
+                    "wStart": 1.8,
+                    "x": 4,
+                    "y": 9.5
+                },
+                {
+                    "name": "hat",
+                    "wEnd": 1.7,
+                    "wPeriod": 100,
+                    "wStart": 1.7,
+                    "x": 5,
+                    "y": 9.2
+                },
+                {
+                    "name": "torso",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "injury",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": 1.5,
+                    "y": 9
+                },
+                {
+                    "name": "abdomen",
+                    "wEnd": 1.5707963267948966,
+                    "wPeriod": 100,
+                    "wStart": 1.5707963267948966,
+                    "x": -1,
+                    "y": 9.5
+                },
+                {
+                    "name": "right_leg",
+                    "wEnd": 0.7,
+                    "wPeriod": 5000,
+                    "wStart": 0.6,
+                    "x": 0.0,
+                    "y": 8.5
+                },
+                {
+                    "name": "left_arm",
+                    "wEnd": 0.1,
+                    "wPeriod": 4000,
+                    "wStart": -0.1,
+                    "x": 4.5,
+                    "y": 8
+                }
+            ],
+            "side": "LEFT",
+            "type": "CARRIED"
+        },
+    ]
+}]

@@ -1,0 +1,23 @@
+[
+	{
+		"name": "FIRE_POINT",
+		"categories": ["BASIC", "RESOURCES"], "sort": 25,
+		"w": 2, "h": 2,
+		"appearance": { "src": "modules", "x": 55, "y": 26, "w": 2, "h": 2 },
+		"depletedResourceAppearances": [
+			{ "src": "modules", "x": 55, "y": 28, "w": 2, "h": 2 },
+			{ "src": "modules", "x": 55, "y": 30, "w": 2, "h": 2 }
+		],
+		"windows": [ { "x": 1, "y": 1 } ],
+		"moveDelay": 600,
+		"hp": 150,
+		"fireHP": 15,
+		"weight": 170,
+		"cost": 25,
+		"water": 50,
+		"optionalCrew": 2, "recommendedCrew": 2,
+		"hitParticle": "damaged_spark",
+		"destructionParticle": "water_splash", "destructionParticleDensity": 15,
+		"fragmentsFireMult": 0.5
+	}
+]

@@ -1,0 +1,28 @@
+[
+	{
+		"name": "SPIKE_RAM",
+		"categories": ["WEAPONS"], "sort": 101,
+		"availableFor": ["AIRSHIP", "LANDSHIP"],
+		"external": true, "isRam": true,
+		"w": 4, "h": 1,
+		"appearance": { "src": "modules", "x": 12, "y": 30, "w": 4 },
+		"mask": { "x": 28, "y": 63 },
+		"externalAppearances": [ {
+			"x": 0, "y": 0,
+			"appearance": { "src": "modules", "x": 28, "y": 63, "w": 4 }
+		} ],
+		"drawExternalsBelowDecals": true,
+		"drawAppearanceInside": false,
+		"externalSubColor": { "r": 200, "g": 184, "b": 79 },
+		"externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
+		"frontOnly": true,
+		"canOccupy": [], "moveDelay": 10000,
+		"hp": 7000,
+		"fireHP": 0,
+		"weight": 500,
+		"cost": 90,
+		"hardness": 2.1,
+		"hitParticle": "damaged_spark",
+		"fragmentsSpeedMult": 0.5, "fragmentsFireMult": 0.5
+	}
+]

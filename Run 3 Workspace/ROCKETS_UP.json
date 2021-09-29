@@ -1,0 +1,167 @@
+[
+    {
+        "name": "FLIPPED_ROCKETSUP",
+        "flippedFrom": "ROCKETSUP"
+    },
+    {
+        "name": "ROCKETSUP",
+        "categories": ["WEAPONS"],
+        "required": "ROCKETS",
+        "isWeapon": true,
+        "w": 2,
+        "h": 2,
+        "appearance": {
+            "base": {
+                "src": "spritesheet",
+                "x": 25,
+                "y": 0,
+                "w": 2,
+                "h": 2
+            },
+            "RAPID_ROCKET_FIRE": {
+                "src": "spritesheet",
+                "x": 22,
+                "y": 18,
+                "w": 2,
+                "h": 2
+            }
+        },
+        "hp": 120,
+        "fireHP": 100,
+        "moveDelay": 800,
+        "weight": 30,
+        "cost": 40,
+        "crew": 2,
+        "recommendedCrew": 3,
+        "windows": [
+            { "x": 1, "y": 1 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+            { "x": 0, "y": 1 },
+            { "x": 1, "y": 1 }
+        ],
+        "leftDoors": [0, 1],
+        "upDoors": [0],
+        "frontOnly": true,
+        "isExplosive": true,
+        "shotSpeed": 0.6,
+        "jitterMerge": 0.3,
+        "reload": { "base": 4000, "RAPID_ROCKET_FIRE": 300 },
+        "clipReloadTime": { "base": 500, "RAPID_ROCKET_FIRE": 4000 },
+        "clip": { "base": 1, "RAPID_ROCKET_FIRE": 4 },
+        "inaccuracy": { "base": 0.004, "ACTIVE_STABILISATION": 0.0025 },
+		"impactForce": 1.3,
+        "blastDmg": {
+            "base": 40,
+            "multipliers": {
+				"POWERFUL_EXPLOSIVES": 1.3
+			},
+			"dividers": {
+				"RAPID_ROCKET_FIRE": 2
+			}
+        },
+        "blastSplashRadius": { "base": 40, "RAPID_ROCKET_FIRE": 35 },
+        "penDmg": 0,
+        "fireArc": { "arcCenter": "335", "degrees": 120 },
+        "muzzleCenterX": 1.56,
+        "muzzleCenterY": {"base": 1.31, "RAPID_ROCKET_FIRE": 1.25 },
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 100,
+        "fireSound": {
+            "base": {
+                "layers": [
+                    {
+                        "variations": [ "rocket0", "rocket1", "rocket2", "rocket3", "rocket4", "rocket5" ],
+                        "volume": 2.2,
+                        "pitch": {
+                            "min": 0.8,
+                            "max": 1.2,
+                            "distance": [
+                                0, 1.3,
+                                3000, 0.5
+                            ]
+                        }
+                    }
+                ]
+            },
+            "RAPID_ROCKET_FIRE": {
+                "layers": [
+                    {
+                        "variations": [ "rocket0", "rocket1", "rocket2", "rocket3", "rocket4", "rocket5" ],
+                        "volume": 1.6,
+                        "pitch": {
+                            "min": 1.1,
+                            "max": 1.35,
+                            "distance": [
+                                0, 1.3,
+                                3000, 0.5
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "explodeHP": 50,
+        "explodeDmg": 30,
+        "weaponAppearance": {
+            "base": {
+                "onlyShowBarrelIfLoaded": true,
+                "shot": { "src": "spritesheet", "x": 80, "y": 313, "w": 35, "h": 5 },
+                "barrel": { "src": "spritesheet", "x": 80, "y": 313, "w": 35, "h": 5 },
+                "barrelX": 10,
+                "barrelY": 18.5,
+                "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.01 },
+                "hitExplosionSize": 3,
+                "missExplosionSize": 2,
+                "exhaust": {
+                    "type": "rocket_exhaust",
+                    "p": 0.1,
+                    "backOffset": 18,
+                    "angleRange": 0.35,
+                    "randomOffset": 3,
+                    "speedMin": 1.5,
+                    "speedMax": 2.5
+                }
+            },
+            "ACTIVE_STABILISATION": {
+                "onlyShowBarrelIfLoaded": true,
+                "shot": { "src": "spritesheet", "x": 175, "y": 312, "w": 35, "h": 7 },
+                "barrel": { "src": "spritesheet", "x": 175, "y": 312, "w": 35, "h": 7 },
+                "barrelX": 10,
+                "barrelY": 17.5,
+                "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.01 },
+                "hitExplosionSize": 3,
+                "missExplosionSize": 2,
+                "exhaust": {
+                    "type": "rocket_exhaust",
+                    "p": 0.1,
+                    "backOffset": 18,
+                    "angleRange": 0.35,
+                    "randomOffset": 3,
+                    "speedMin": 1.5,
+                    "speedMax": 2.5
+                }
+            },
+            "RAPID_ROCKET_FIRE": {
+                "shot": { "src": "spritesheet", "x": 150, "y": 304, "w": 23, "h": 5 },
+                "barrel": { "src": "spritesheet", "x": 381, "y": 298, "w": 33, "h": 14 },
+                "barrelX": 8.5,
+                "barrelY": 13,
+                "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.007 },
+                "hitExplosionSize": 2.5,
+                "missExplosionSize": 1.5,
+                "exhaust": {
+                    "type": "rocket_exhaust",
+                    "p": 0.07,
+                    "backOffset": 12,
+                    "angleRange": 0.3,
+                    "randomOffset": 3,
+                    "speedMin": 1.5,
+                    "speedMax": 2.5
+                }
+            }
+        }
+    }
+]

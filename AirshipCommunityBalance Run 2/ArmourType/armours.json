@@ -30,7 +30,7 @@
             "base": 24
         },
         "weight": {
-            "base": 1
+            "base": 0
         },
         "blastDmgAbsorb": {
             "base": 0
@@ -86,72 +86,6 @@
         }
     },
     {
-        "name": "MED_STEEL_HIDDEN",
-        "sort": 0,
-        "hidden": true,
-        "cost": {
-            "base": 0
-        },
-        "hp": {
-            "base": 45
-        },
-        "weight": {
-            "base": 0
-        },
-        "blastDmgAbsorb": {
-            "base": 12
-        },
-        "penDmgAbsorb": {
-            "base": 6
-        },
-        "damagedApps": [],
-        "smallHitSound": {
-            "layers": [
-                {
-                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
-                    "volume": {
-                        "min": 0.3,
-                        "max": 0.4
-                    },
-                    "pitch": {
-                        "min": 1.05,
-                        "max": 1.15
-                    }
-                }
-            ]
-        },
-        "largeHitSound": {
-            "layers": [
-                {
-                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
-                    "volume": {
-                        "min": 0.7,
-                        "max": 1.0
-                    },
-                    "pitch": {
-                        "min": 0.95,
-                        "max": 1.05
-                    }
-                }
-            ]
-        },
-        "brokenSound": {
-            "layers": [
-                {
-                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
-                    "volume": {
-                        "min": 1.5,
-                        "max": 2.4
-                    },
-                    "pitch": {
-                        "min": 0.9,
-                        "max": 0.95
-                    }
-                }
-            ]
-        }
-    },
-	{
         "name": "LT_STEEL_HIDDEN",
         "sort": 0,
         "hidden": true,
@@ -205,6 +139,72 @@
             "layers": [
                 {
                     "variations": [ "hit_metal_hollow_1", "hit_metal_hollow_2", "hit_metal_hollow_3", "hit_metal_hollow_4" ],
+                    "volume": {
+                        "min": 1.5,
+                        "max": 2.4
+                    },
+                    "pitch": {
+                        "min": 0.9,
+                        "max": 0.95
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "name": "MED_STEEL_HIDDEN",
+        "sort": 0,
+        "hidden": true,
+        "cost": {
+            "base": 0,
+        },
+        "hp": {
+            "base": 45
+        },
+        "weight": {
+            "base": 0
+        },
+        "blastDmgAbsorb": {
+            "base": 12
+        },
+        "penDmgAbsorb": {
+            "base": 6
+        },
+        "damagedApps": [],
+        "smallHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
+                    "volume": {
+                        "min": 0.3,
+                        "max": 0.4
+                    },
+                    "pitch": {
+                        "min": 1.05,
+                        "max": 1.15
+                    }
+                }
+            ]
+        },
+        "largeHitSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
+                    "volume": {
+                        "min": 0.7,
+                        "max": 1.0
+                    },
+                    "pitch": {
+                        "min": 0.95,
+                        "max": 1.05
+                    }
+                }
+            ]
+        },
+        "brokenSound": {
+            "layers": [
+                {
+                    "variations": [ "hit_metal_solid_1", "hit_metal_solid_2", "hit_metal_solid_3", "hit_metal_solid_4" ],
                     "volume": {
                         "min": 1.5,
                         "max": 2.4
@@ -717,7 +717,7 @@
             "base": 50
         },
         "weight": {
-            "base": 2
+            "base": 3
         },
         "blastDmgAbsorb": {
             "base": 2
@@ -817,7 +817,7 @@
             "base": 75
         },
         "weight": {
-            "base": 15
+            "base": 12
         },
         "blastDmgAbsorb": {
             "base": 6
@@ -1416,7 +1416,7 @@
             "CHEAP_STONE": 3
         },
         "hp": {
-            "base": 100
+            "base": 130
         },
         "weight": {
             "base": 150
@@ -1516,7 +1516,7 @@
             "CONQUEST": 8
         },
         "hp": {
-            "base": 60
+            "base": 75
         },
         "weight": {
             "base": 0
@@ -1612,8 +1612,8 @@
         "placeSound": "place_stone",
         "placePitch": 1.65,
         "cost": {
-            "base": 10,
-            "CONQUEST": 5
+            "base": 6,
+            "CONQUEST": 3
         },
         "hp": {
             "base": 60
@@ -1622,7 +1622,7 @@
             "base": 35
         },
         "weight": {
-            "base": 6
+            "base": 4
         },
         "blastDmgAbsorb": {
             "base": 4

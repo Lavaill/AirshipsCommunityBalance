@@ -1,0 +1,64 @@
+[
+	{
+		"name": "WALL_DECK",
+		"categories": ["STRUCTURAL"],
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 49, "y": 5 },
+		"mask": { "x": 30, "y": 38 },
+        "producesHorizontalDrag": false,
+		"moveDelay": 200,
+		"hp": 40,
+		"fireHP": 3,
+		"weight": 4,
+		"cost": 4,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "WALL_DECK_B",
+		"variants": [ "WALL_DECK", "CRENELLATION" ],
+		"categories": ["STRUCTURAL"], "sort": 10,
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 49, "y": 5 },
+		"mask": { "x": 32, "y": 38 },
+        "producesHorizontalDrag": false,
+		"moveDelay": 200,
+		"hp": 40,
+		"fireHP": 3,
+		"weight": 4,
+		"cost": 4,
+		"fragmentsFireMult": 0.5
+	},
+    {
+        "name": "FLIPPED_WALL_DECK_B_END",
+        "flippedFrom": "WALL_DECK_B_END"
+    },
+	{
+		"name": "WALL_DECK_B_END",
+		"categories": ["STRUCTURAL"], "sort": 11,
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 49, "y": 5 },
+		"mask": { "x": 33, "y": 38 },
+        "producesHorizontalDrag": false,
+        "rightDoors": [],
+		"moveDelay": 200,
+		"hp": 40,
+		"fireHP": 3,
+		"weight": 4,
+		"cost": 4,
+		"fragmentsFireMult": 0.5
+	},
+	{
+		"name": "CRENELLATION",
+		"categories": ["STRUCTURAL"],
+		"w": 1, "h": 1,
+		"appearance": { "src": "modules", "x": 49, "y": 5 },
+		"mask": { "x": 52, "y": 20 },
+        "producesHorizontalDrag": false,
+		"moveDelay": 200,
+		"hp": 40,
+		"fireHP": 3,
+		"weight": 5,
+		"cost": 3,
+		"fragmentsFireMult": 0.5
+	}
+]

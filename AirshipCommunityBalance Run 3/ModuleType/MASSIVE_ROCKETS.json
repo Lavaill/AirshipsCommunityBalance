@@ -1,0 +1,100 @@
+[
+    {
+        "name": "FLIPPED_MASSIVE_ROCKETS",
+        "flippedFrom": "MASSIVE_ROCKETS"
+    },
+    {
+        "name": "MASSIVE_ROCKETS",
+        "categories": ["WEAPONS"],
+        "required": "ROCKETS",
+        "isWeapon": true,
+        "w": 4,
+        "h": 4,
+        "appearance": {
+            "src": "spritesheet",
+            "x": 29,
+            "y": 32,
+            "w": 4,
+            "h": 4
+        },
+        "hp": 500,
+        "fireHP": 400,
+        "moveDelay": 600,
+        "weight": 140,
+        "cost": 240,
+        "crew": 2,
+        "recommendedCrew": 4,
+        "windows": [
+            { "x": 3, "y": 0 },
+			{ "x": 3, "y": 1 },
+			{ "x": 3, "y": 2 },
+			{ "x": 3, "y": 3 }
+        ],
+        "canOccupy": [
+            { "x": 0, "y": 0 },
+			{ "x": 0, "y": 1 },
+            { "x": 0, "y": 2 },
+			{ "x": 0, "y": 3 },
+            { "x": 1, "y": 3 },
+            { "x": 2, "y": 3 },
+            { "x": 3, "y": 3 }
+        ],
+        "leftDoors": [0, 3],
+        "upDoors": [0],
+        "frontOnly": true,
+        "isExplosive": true,
+        "shotSpeed": 0.675,
+        "jitterMerge": 0.3,
+        "reload": 10000,
+        "clip": 1,
+        "ammoPerClip": 4,
+        "inaccuracy": 0.003,
+		"impactForce": 5.0,
+        "blastDmg": { "base": 65, "multipliers": {"POWERFUL_EXPLOSIVES": 1.3 } },
+        "blastSplashRadius": 80,
+        "penDmg": 0,
+        "fireArc": { "direction": "forwards", "degrees": 150 },
+        "muzzleCenterX": 3,
+        "muzzleCenterY": 2,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 100,
+        "fireSound": {
+            "layers": [
+                {
+                    "variations": [ "rocket0", "rocket1", "rocket2", "rocket3", "rocket4", "rocket5" ],
+                    "volume": 3.2,
+                    "pitch": {
+                        "min": 0.2,
+                        "max": 0.3,
+                        "distance": [
+                            0, 1.3,
+                            3000, 0.5
+                        ]
+                    }
+                }
+            ]
+        },
+        "explodeHP": 200,
+        "explodeDmg": 120,
+        "weaponAppearance": {
+            "onlyShowBarrelIfLoaded": true,
+            "shot": { "src": "spritesheet", "x": 464, "y": 577, "w": 64, "h": 15 },
+            "barrel": { "src": "spritesheet", "x": 464, "y": 577, "w": 64, "h": 15 },
+            "barrelX": 16,
+            "barrelY": 24.5,
+            "shotEmitter": { "type": "trailing_smoke", "emitProbability": 0.01 },
+            "hitExplosionSize": 6,
+            "missExplosionSize": 4,
+            "exhaust": {
+                "type": "rocket_exhaust",
+                "p": 0.6,
+                "backOffset": 37,
+                "angleRange": 0.3,
+                "randomOffset": 8,
+                "speedMin": 1.5,
+                "speedMax": 2.5
+            }
+        }
+    }
+]

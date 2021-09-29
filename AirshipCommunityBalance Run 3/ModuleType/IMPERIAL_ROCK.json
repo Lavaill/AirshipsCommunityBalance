@@ -1,0 +1,101 @@
+[
+    {
+        "name": "IMPERIAL_ROCK",
+        "categories": ["WEAPONS"],
+        "availableFor": ["AIRSHIP", "LANDSHIP"],
+        "required": "IMPERIAL_ROCK",
+        "isWeapon": true,
+        "w": 3,
+        "h": 3,
+        "appearance": {
+            "src": "imperial_rock",
+            "x": 16,
+            "y": 16,
+            "w": 3,
+            "h": 3
+        },
+        "externalAppearances": [
+            {
+                "x": 0,
+                "y": 0,
+                "appearance": {
+                    "src": "imperial_rock",
+                    "x": 16,
+                    "y": 16,
+                    "w": 3,
+                    "h": 3
+                }
+            }
+        ],
+        "mask": {
+            "x": 16,
+            "y": 16
+        },
+        "hp": 400,
+        "external": true,
+        "drawExternalsBelowDecals": true,
+		"drawAppearanceInside": false,
+        "drawExternalsWhenInside": true,
+        "externalSubColor": { "r": 88, "g": 92, "b": 96 },
+        "fireHP": 0,
+        "moveDelay": 20000,
+        "weight": 400,
+        "firedWeightDecrease": 370,
+        "cost": 300,
+        "crew": 0,
+        "canOccupy": [],
+        "bottomOnly": true,
+        "shotSpeed": { "base": 0.25, "AERODYNAMICS": 0.4 },
+        "canResupplyInCombat": false,
+        "inaccuracy": 0.003,
+        "obeysFireMode": false,
+		"impactForce": 25.0,
+        "penDmg": 500,
+        "fireArc": { "direction": "down", "degrees": 9 },
+        "muzzleCenterX": 1.5,
+        "muzzleCenterY": 1.5,
+        "muzzleLength": 0,
+        "muzzleFlash": false,
+        "optimumRange": 200,
+        "hitSound": {
+            "base": {
+                "layers": [
+                    {
+                        "variations": ["rock0", "rock1", "rock2"],
+                        "volume": {
+                            "min": 0.9,
+                            "max": 1.1
+                        },
+                        "pitch": {
+                            "min": 0.5,
+                            "max": 1.0
+                        }
+                    },
+                    {
+                        "variations": ["stones"],
+                        "volume": {
+                            "min": 0.9,
+                            "max": 1.1
+                        },
+                        "pitch": {
+                            "min": 0.5,
+                            "max": 1.0
+                        }
+                    }
+                ]
+            },
+            "MEDIUM_STEEL_ARMOUR": { "layers": [] }
+		},
+        "weaponAppearance": {
+            "base": {
+                "onlyShowBarrelIfLoaded": true,
+                "shot": { "src": "imperial_rock", "x": 16, "y": 16, "w": 48, "h": 48 },
+                "barrel": { "src": "imperial_rock", "x": 16, "y": 16, "w": 48, "h": 48 },
+                "barrelX": 0,
+                "barrelY": 0,
+                "impactParticle": "rock_bit",
+                "numImpactParticles": 12
+            }
+        }
+    }
+]

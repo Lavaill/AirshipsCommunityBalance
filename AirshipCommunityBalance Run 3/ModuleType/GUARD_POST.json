@@ -1,16 +1,9 @@
 [
 	{
 		"name": "GUARD_POST",
-		"categories": ["TROOPS"], "sort": -2,
-		"w": 1, "h": 1,
-		"appearance": { "src": "modules", "x": 57, "y": 26 },
-		"hp": 40,
-		"fireHP": 20,
-		"moveDelay": 600,
-		"weight": 5,
-		"cost": 5,
-		"fixedGuards": 1,
+		"patch": true,
+		"weight": 10,
+		"cost": 10,
 		"quarters": 1, "quartersType": "guard",
-        "destructionParticle": "paper", "destructionParticleDensity": 10
 	}
 ]

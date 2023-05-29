@@ -1,28 +1,9 @@
 [
 	{
 		"name": "GRAND_RAM",
-		"categories": ["WEAPONS"], "sort": 102,
-		"availableFor": ["AIRSHIP", "LANDSHIP"],
-		"isRam": true, "external": true,
-		"w": 4, "h": 2,
-		"appearance": { "src": "modules", "x": 12, "y": 30, "w": 4, "h": 2 },
-		"mask": { "x": 38, "y": 52 },
-		"externalAppearances": [ {
-			"x": 0, "y": 0,
-			"appearance": { "src": "modules", "x": 38, "y": 52, "w": 4, "h": 2 }
-		} ],
-		"drawExternalsBelowDecals": true,
-		"drawAppearanceInside": false,
-		"externalSubColor": { "r": 200, "g": 184, "b": 79 },
-		"externalSubBaseColor": { "r": 88, "g": 92, "b": 96 },
-		"frontOnly": true,
-		"canOccupy": [], "moveDelay": 10000,
+		"patch": true,
 		"hp": 20000,
-		"fireHP": 0,
 		"weight": 1200,
-		"cost": 300,
 		"hardness": 2,
-		"hitParticle": "damaged_spark",
-		"fragmentsSpeedMult": 0.5, "fragmentsFireMult": 0.5
 	}
 ]

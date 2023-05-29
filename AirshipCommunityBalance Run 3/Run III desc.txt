@@ -1,24 +1,8 @@
-[h1]The Official Airships Community Balance Mod[/h1]
-
-This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
-
-It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
-
-The current rules are as follow:
-- The mod works in "trial runs". At the start of each run we will add all changes that were voted on and keep them in for either a determined length of time or until the community votes to end the current run.
-
-- Anyone can propose a change to be tested out in the next run. If there is at least two more votes for than against at the end of the voting period, the change is eligible to be added to the mod.
-
-- If two suggestions are incompatible (Two different values for one gun for example) only the one with the most votes will be put in the run.
-
-- At the end of the run we will vote again on each change that was implemented and make a quick report to be sent to Zarkonnen.
-
-
 RUN III
 
 [h1]The Official Airships Community Balance Mod[/h1]
 
-This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. 
+This mod was created on the request of the game developer as a means to test out potential balance changes that the community would appreciate. Think of it as a balance beta!
 
 It's rules, changes and new modules are voted on by members of the community on [url=https://discord.gg/sfQgdR] the official Discord server[/url] .
 
@@ -41,6 +25,7 @@ New Modules:
 
 Module changes:
 [list]
+[*] No restriction on legs. Build under! Accidentally make your landships useless!
 [*] Bowsprits: 400 HP -> 100
 [*] Rocket (External) Cost: 10$ -> 30$, Clip: 1 -> 4, Inaccuracy: 0.004 -> 0.003
 [*] Guard Post: Quarters guards 0 -> 1
@@ -55,16 +40,34 @@ Module changes:
 [*] Ram: Weight: 500 -> 300, HP: 9000 -> 5500, Hardness: 1. 4 -> 1.5
 [*] Spike Ram: Weight: 900 -> 500, Hardness: 1.9 -> 2.1
 [*] Grand Ram: Weight: 3000 -> 1200, HP: 45000 -> 20000, Hardness: 1.7 -> 2.0
-[*] Ram: Cost: 80$ -> 60$, Weight: 500 -> 400, HP: 9000 -> 2000, Hardness: 1.4 -> 2
 [*] Massive Rocket (External): Cost: 60$ -> 80$, Damage: 50 -> 65, Clip: 1 -> 2, Inaccuracy: 0.003 -> 0.0025
 [*] Cultist Pinnacle: Cost: 40$ -> 80$, HP: 240 -> 800, Ship HP: 320 -> 1000, Hardness: 1.0 -> 1.5
+[*] 20% keel weight reduction
+[*] Sickbay: Maintenance: 1 > 0, Cost: 20 > 50, fireHP: 50 > 80
+[*] Imperial Cannon: Cost: 800 > 700
+[*] Guard post: Weight: 5 > 10, Cost: 5 > 10, Guards: 0 > 1
+[*] Guard Barracks: Cost: 40 > 30
+[*] Flamethrower and Giant Flamethrower: Shot speed doubled
+[*] Giant Flamethrower: Cost 500 > 350
+[*] Guided Missile: Cost: 1200 > 600, [Damage: 90 > 105, blastSplashRadius: 60 > 90]
+[*] Front Turret: Inaccuracy: 0.002 > 0.0018 
+[*] Bottom Turret: Inaccuracy: 0.0018 > 0.0016
+[*] Ventral/Dorsal Turret: Inaccuracy: 0.0022 > 0.002
+[*] Bomb Bay: Innaccuracy: 0.005 > 0.003, Crew: 2(3) > 1(2)
+[*] Sponson: Clip 1 > 2,
+[*] Light Sponson: Clip 2 > 4
+[*] Saw: Fire Rate: 200 > 300, Cost: 50 > 150, Weight: 120 > 240
+[*] Dragonrider: Cost: 2000 > 1000
+[*] Mech Squid: Cost: 2000 > 750
+[*] Fleshcracker: Cost: 1500 > 500
+
 
 [/list]
 
 If you would like to participate or send us feedback, join us on the official Discord! All are welcome!
 
 [b]Credits:[/b]
-Bob Belcher for the visuals and initial implementation of the Imperial Rock.
+Bob Belcher for the visuals and initial implementation of the Imperial Rock, as well as the switch to the new patch system and pretty much the entirety of the latest update.
 Horcerer for the implementation of the imperial rock and the initial changes.
 Towarish Broven and Ooorang for the visuals to many of the modules in the mod and providing many values. Both current balance moderators!
 Meowskyi for the Tankmens of balance run II!
@@ -74,7 +77,3 @@ Mink for double-checking the changes and helping bugfix the mod.
 Bob Belcher for visual and technical implementation of some new modules.
 Pneuma for the sprites and new modules of run III!
 Zarkonnen, for going along with the idea and overall being a pretty great guy!
-
-
-
-

@@ -1,26 +1,22 @@
 [
 	{
 		"name": "MOONS_ABOVE",
+		"patch": true,
 		"bonus": "IMPERIAL_ROCK",
-		"appearance": { "src": "heraldry", "x": 37, "y": 0 },
-		"unlitAppearance": { "src": "unlit_heraldry", "x": 37, "y": 0 }
 	},
 	{
 		"name": "WHALE",
+		"patch": true,
 		"bonus": "IMPERIAL_ROCK",
-		"appearance": { "src": "heraldry", "x": 40, "y": 0 },
-		"unlitAppearance": { "src": "unlit_heraldry", "x": 40, "y": 0 }
 	},
 	{
 		"name": "ARCH",
+		"patch": true,
 		"bonus": "IMPERIAL_ROCK",
-		"appearance": { "src": "heraldry", "x": 42, "y": 0 },
-		"unlitAppearance": { "src": "unlit_heraldry", "x": 42, "y": 0 }
 	},
 	{
 		"name": "ROUNDEL",
+		"patch": true,
 		"bonus": "IMPERIAL_ROCK",
-		"appearance": { "src": "heraldry", "x": 19, "y": 0 },
-		"unlitAppearance": { "src": "unlit_heraldry", "x": 19, "y": 0 }
 	}
 ]

@@ -1,62 +1,9 @@
 [
     {
         "name": "BOMB_BAY",
-        "categories": ["WEAPONS"],
-        "availableFor": [ "AIRSHIP", "LANDSHIP" ],
-        "required": "BOMBS",
-        "isWeapon": true,
-        "w": 2,
-        "h": 1,
-        "appearance": {
-            "src": "spritesheet",
-            "x": 40,
-            "y": 4,
-            "w": 2,
-            "h": 1
-        },
-        "hp": 80,
-        "fireHP": 50,
-        "moveDelay": 800,
-        "weight": 40,
-        "cost": 30,
-        "crew": 2,
-        "recommendedCrew": 3,
-        "bottomOnly": true,
-        "isExplosive": true,
-        "shotSpeed": 0.3,
-        "muzzleFlash": false,
-        "reload": 6000,
-        "obeysFireMode": false,
-        "inaccuracyFromWeather": false,
-        "clip": 1,
+		"patch": true,
         "inaccuracy": { "base": 0.003, "AERODYNAMICS": 0.0015 },
-		"impactForce": 1.0,
-        "blastDmg": { "base": 40, "multipliers": {"POWERFUL_EXPLOSIVES": 1.3 } },
-        "blastSplashRadius": 50,
-        "penDmg": 0,
-        "fireArc": { "direction": "down", "degrees": 10 },
-        "muzzleCenterX": 1,
-        "muzzleCenterY": 0.7,
-        "muzzleLength": 0,
-        "optimumRange": 500,
-        "hitSound": {
-            "layers": [
-                {
-                    "variations": ["smexplosion"],
-                    "volume": 1.8,
-                    "pitch": {
-                        "min": 0.9,
-                        "max": 1.1
-                    }
-                }
-            ]
-        },
-        "explodeHP": 40,
-        "explodeDmg": 40,
-        "weaponAppearance": {
-            "shot": { "src": "spritesheet", "x": 641, "y": 81, "w": 12, "h": 5 },
-            "hitExplosionSize": 2.5,
-            "missExplosionSize": 0.8,
-        }
+        "crew": 1,
+        "recommendedCrew": 2,
     }
 ]

@@ -1,10 +1,7 @@
 [
 	{
-		"name": "FLIPPED_SMALL_BOW",
-		"flippedFrom": "SMALL_BOW"
-	},
-	{
 		"name": "SMALL_BOW",
+		"patch": true,
 		"verticallyFlippedVersion": "INVERTED_SMALL_BOW",
 		"variants": [ "MEDIUM_BOW", "LARGE_BOW" ], "variantType": "SIZES",
 		"categories": ["SOLID_SHAPES"], "sort": 200,
@@ -24,27 +21,11 @@
 		"fragmentsSpeedMult": 0.5, "fragmentsFireMult": 0.5
 	},
 	{
-		"name": "FLIPPED_INVERTED_SMALL_BOW",
-		"flippedFrom": "INVERTED_SMALL_BOW"
-	},
-	{
 		"name": "INVERTED_SMALL_BOW",
+        "deriveFrom": "SMALL_BOW",
 		"variants": [ "INVERTED_MEDIUM_BOW", "INVERTED_LARGE_BOW" ], "variantType": "SIZES",
-		"categories": ["SOLID_SHAPES"],
-		"availableFor": ["AIRSHIP", "LANDSHIP"],
-		"w": 2, "h": 1,
 		"appearance": { "src": "modules", "x": 8, "y": 8, "w": 2 },
 		"mask": { "x": 8, "y": 8 },
-		"canOccupy": [], "moveDelay": 10000,
-		"hp": 75,
-		"fireHP": 0,
-		"weight": 35,
-		"cost": 40,
-		"shipHPBonus": 100,
-		"hardness": 1.05,
-		"hitParticle": "splinter",
-		"destructionParticle": "splinter", "destructionParticleDensity": 5,
-		"fragmentsSpeedMult": 0.5, "fragmentsFireMult": 0.5
 	},
 	{
 		"name": "FLIPPED_MEDIUM_BOW",
